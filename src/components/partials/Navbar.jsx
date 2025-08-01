@@ -21,8 +21,11 @@ const Navbar = () => {
   return (
     <header style={styles.header}>
       <div style={styles.logoContainer}>
+       <Link to="/">
         <img src={logo} alt="Logo" style={styles.logo} />
+       </Link>
         <p style={styles.subText}>law offices by suman khatri</p>
+
       </div>
 
       {isMobile && (

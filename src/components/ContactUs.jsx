@@ -1,7 +1,4 @@
 import React from 'react';
-import { Container, Row, Col,  } from 'react-bootstrap';
-import { FaPhone, FaInstagram, FaLinkedin,  FaTwitter } from 'react-icons/fa';
-import ContactForm from './partials/ContactForm';
 import Banner from './partials/Banner';
 import ContactHome from './partials/ContactHome';
 
