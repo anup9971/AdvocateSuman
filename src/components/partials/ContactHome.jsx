@@ -53,92 +53,127 @@ const ContactHome = () => {
         </div>
 
         {/* Contact With Us Section */}
+       
+
         <Container>
-          <h2 className="contact-heading text-center my-5">Contact With Us</h2>
+  <h2 className="contact-heading text-center my-5">Contact With Us</h2>
 
-          {/* Phone top center */}
-          <Row className="justify-content-center mb-4">
-            <Col xs="auto" className="contact-item text-center">
-              <a
-                href="tel:+911234567890"
-                className="social-link"
-                onMouseEnter={() => handleMouseEnter('Phone')}
-                onMouseLeave={handleMouseLeave}
-                style={{
-                  ...styles.link,
-                  textDecoration: hoveredLink === 'Phone' ? 'underline' : 'none',
-                  textDecorationColor: hoveredLink === 'Phone' ? '#561C24' : 'transparent',
-                }}
-              >
-                <img src={phone} width={50} height={50} alt="Phone" />
-                <p style={styles.text}>+91 1234567890</p>
-              </a>
-            </Col>
-          </Row>
+  {/* ----------- Desktop View (md and above): single row ----------- */}
+  <Row className="justify-content-center d-none d-md-flex mb-5">
+    {[ 
+      { name: 'Phone', icon: phone, link: 'tel:+911234567890', label: '+91 1234567890' },
+      { name: 'Instagram', icon: instagram, link: 'https://instagram.com', label: 'Instagram' },
+      { name: 'LinkedIn', icon: linkedin, link: 'https://linkedin.com', label: 'LinkedIn' },
+      { name: 'Twitter', icon: twitter, link: 'https://twitter.com', label: 'Twitter' },
+    ].map((item, idx) => (
+      <Col key={idx} xs={6} md={3} className="contact-item text-center mb-3">
+        <a
+          href={item.link}
+          target={item.name === 'Phone' ? '_self' : '_blank'}
+          rel="noreferrer"
+          className="social-link"
+          onMouseEnter={() => handleMouseEnter(item.name)}
+          onMouseLeave={handleMouseLeave}
+          style={{
+            ...styles.link,
+            textDecoration: hoveredLink === item.name ? 'underline' : 'none',
+            textDecorationColor: hoveredLink === item.name ? '#561C24' : 'transparent',
+          }}
+        >
+          <img src={item.icon} width={50} height={50} alt={item.name} />
+          <p style={styles.text}>{item.label}</p>
+        </a>
+      </Col>
+    ))}
+  </Row>
 
-          {/* Instagram (left) and LinkedIn (right) */}
-          <Row className="justify-content-between mb-4">
-            <Col xs={6} md={4} className="contact-item text-start">
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noreferrer"
-                className="social-link"
-                onMouseEnter={() => handleMouseEnter('Instagram')}
-                onMouseLeave={handleMouseLeave}
-                style={{
-                  ...styles.link,
-                  textDecoration: hoveredLink === 'Instagram' ? 'underline' : 'none',
-                  textDecorationColor: hoveredLink === 'Instagram' ? '#561C24' : 'transparent',
-                }}
-              >
-                <img src={instagram} width={50} height={50} alt="Instagram" />
-                <p style={styles.text}>Instagram</p>
-              </a>
-            </Col>
+  {/* ----------- Mobile View (below md): Zig-zag pattern ----------- */}
+  <div className="d-block d-md-none">
+    {/* Phone - top center */}
+    <Row className="justify-content-center mb-4">
+      <Col xs="auto" className="contact-item text-center">
+        <a
+          href="tel:+911234567890"
+          className="social-link"
+          onMouseEnter={() => handleMouseEnter('Phone')}
+          onMouseLeave={handleMouseLeave}
+          style={{
+            ...styles.link,
+            textDecoration: hoveredLink === 'Phone' ? 'underline' : 'none',
+            textDecorationColor: hoveredLink === 'Phone' ? '#561C24' : 'transparent',
+          }}
+        >
+          <img src={phone} width={50} height={50} alt="Phone" />
+          <p style={styles.text}>+91 1234567890</p>
+        </a>
+      </Col>
+    </Row>
 
-            <Col xs={6} md={4} className="contact-item text-end">
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noreferrer"
-                className="social-link"
-                onMouseEnter={() => handleMouseEnter('LinkedIn')}
-                onMouseLeave={handleMouseLeave}
-                style={{
-                  ...styles.link,
-                  textDecoration: hoveredLink === 'LinkedIn' ? 'underline' : 'none',
-                  textDecorationColor: hoveredLink === 'LinkedIn' ? '#561C24' : 'transparent',
-                }}
-              >
-                <img src={linkedin} width={50} height={50} alt="LinkedIn" />
-                <p style={styles.text}>LinkedIn</p>
-              </a>
-            </Col>
-          </Row>
+    {/* Instagram-left and LinkedIn-right */}
+    <Row className="justify-content-between mb-4">
+      <Col xs={6} className="contact-item text-start">
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          rel="noreferrer"
+          className="social-link"
+          onMouseEnter={() => handleMouseEnter('Instagram')}
+          onMouseLeave={handleMouseLeave}
+          style={{
+            ...styles.link,
+            textDecoration: hoveredLink === 'Instagram' ? 'underline' : 'none',
+            textDecorationColor: hoveredLink === 'Instagram' ? '#561C24' : 'transparent',
+          }}
+        >
+          <img src={instagram} width={50} height={50} alt="Instagram" />
+          <p style={styles.text}>Instagram</p>
+        </a>
+      </Col>
 
-          {/* Twitter bottom center */}
-          <Row className="justify-content-center">
-            <Col xs="auto" className="contact-item text-center">
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noreferrer"
-                className="social-link"
-                onMouseEnter={() => handleMouseEnter('Twitter')}
-                onMouseLeave={handleMouseLeave}
-                style={{
-                  ...styles.link,
-                  textDecoration: hoveredLink === 'Twitter' ? 'underline' : 'none',
-                  textDecorationColor: hoveredLink === 'Twitter' ? '#561C24' : 'transparent',
-                }}
-              >
-                <img src={twitter} width={50} height={50} alt="Twitter" />
-                <p style={styles.text}>Twitter</p>
-              </a>
-            </Col>
-          </Row>
-        </Container>
+      <Col xs={6} className="contact-item text-end">
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          rel="noreferrer"
+          className="social-link"
+          onMouseEnter={() => handleMouseEnter('LinkedIn')}
+          onMouseLeave={handleMouseLeave}
+          style={{
+            ...styles.link,
+            textDecoration: hoveredLink === 'LinkedIn' ? 'underline' : 'none',
+            textDecorationColor: hoveredLink === 'LinkedIn' ? '#561C24' : 'transparent',
+          }}
+        >
+          <img src={linkedin} width={50} height={50} alt="LinkedIn" />
+          <p style={styles.text}>LinkedIn</p>
+        </a>
+      </Col>
+    </Row>
+
+    {/* Twitter - bottom center */}
+    <Row className="justify-content-center">
+      <Col xs="auto" className="contact-item text-center">
+        <a
+          href="https://twitter.com"
+          target="_blank"
+          rel="noreferrer"
+          className="social-link"
+          onMouseEnter={() => handleMouseEnter('Twitter')}
+          onMouseLeave={handleMouseLeave}
+          style={{
+            ...styles.link,
+            textDecoration: hoveredLink === 'Twitter' ? 'underline' : 'none',
+            textDecorationColor: hoveredLink === 'Twitter' ? '#561C24' : 'transparent',
+          }}
+        >
+          <img src={twitter} width={50} height={50} alt="Twitter" />
+          <p style={styles.text}>Twitter</p>
+        </a>
+      </Col>
+    </Row>
+  </div>
+</Container>
+
       </section>
     </div>
   );
