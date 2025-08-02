@@ -19,7 +19,7 @@ const ContactHome = () => {
           <div className="contact-col left">
             <ContactForm />
           </div>
-          <div className="contact-col right" style={{marginLeft: "-20px"}}>
+          <div className="contact-col right" style={{ marginLeft: '-20px' }}>
             <h2>Office & Chambers</h2>
             <ul className="address-list">
               <li>
@@ -40,10 +40,13 @@ const ContactHome = () => {
               </li>
             </ul>
             <p className="info">
-              <span className="icon">✉️</span> Emails: <a href="mailto:advocatesandhya@yahoo.in">advocatesandhya@yahoo.in</a>
+              <span className="icon">✉️</span> Emails:{' '}
+              <a href="mailto:advocatesandhya@yahoo.in">advocatesandhya@yahoo.in</a>
             </p>
             <p className="info">
-              <span className="icon">📞</span> Mob: 9911077828, 9811177828
+              <span className="icon">📞</span> Mob:{' '}
+              <a href="tel:+919911077828">9911077828</a>,{' '}
+              <a href="tel:+919811177828">9811177828</a>
             </p>
           </div>
         </div>
@@ -51,12 +54,7 @@ const ContactHome = () => {
         <Container>
           <h2 className="contact-heading text-center my-5">Contact With Us</h2>
           <Row className="text-center justify-content-center">
-            <Col xs={12} md={4} className="mb-4 contact-item">
-              <img src={phone} width={50} height={50} alt="Phone" />
-              <p className="contact-text">+91 1234567890</p>
-            </Col>
-
-            {socialLinks.map((item, index) => (
+            {socialLinks.map((item) => (
               <Col key={item.name} xs={6} sm={4} md={2} className="mb-4 contact-item">
                 <a
                   href={item.link}
@@ -65,10 +63,9 @@ const ContactHome = () => {
                   className="social-link"
                   style={{
                     ...styles.link,
-                    textDecoration:
-                      hoveredLink === item.name ? 'underline' : 'none',
-                    textDecorationColor:
-                      hoveredLink === item.name ? '#561C24' : 'transparent',
+                    textDecoration: hoveredLink === item.name ? 'underline' : 'none',
+                    textDecorationColor: hoveredLink === item.name ? '#561C24' : 'transparent',
+                    display: 'inline-block',
                   }}
                   onMouseEnter={() => handleMouseEnter(item.name)}
                   onMouseLeave={handleMouseLeave}
@@ -86,6 +83,11 @@ const ContactHome = () => {
 };
 
 const socialLinks = [
+  {
+    name: 'Phone',
+    link: 'tel:+911234567890',
+    icon: phone,
+  },
   {
     name: 'Instagram',
     link: 'https://instagram.com',

@@ -7,11 +7,6 @@ const     ContactUsHome = () => {
  <>
     <Banner/>
    <ContactHome/>
-
-
-
-
- 
  </>
    
   );
