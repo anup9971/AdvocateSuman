@@ -4,7 +4,7 @@ import "../../assests/style.css";
 
 const ContactForm = () => {
   return (
-    <div className="form-wrapper">
+    <div className="form-wrapper" style={{marginLeft:"-40px"}}>
       <div className="form-container">
         <h2 >Contact Us</h2>
         <form>

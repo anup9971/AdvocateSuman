@@ -19,7 +19,7 @@ const ContactHome = () => {
           <div className="contact-col left">
             <ContactForm />
           </div>
-          <div className="contact-col right">
+          <div className="contact-col right" style={{marginLeft: "-20px"}}>
             <h2>Office & Chambers</h2>
             <ul className="address-list">
               <li>
