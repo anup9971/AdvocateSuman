@@ -32,7 +32,7 @@ const AboutMe = () => {
             marginBottom: "10px",
           }}
         >
-          About Me
+          About Us
         </h2>
         <div
           style={{
@@ -48,10 +48,10 @@ const AboutMe = () => {
       {/* Paragraphs */}
       <div style={{ maxWidth: "750px", padding: "0 15px" }}>
         <p>
-          I am a professionally qualified Advocate practicing since 2019, with a strong foundation in both civil and criminal law. My legal practice is built on integrity, strategic thinking, and a commitment to achieving practical outcomes for my clients.
+          I am a professionally qualified Advocate with a strong foundation in civil and criminal law. My practice is rooted in integrity, careful strategy, and practical solutions for every client.
         </p>
         <p>
-          Over the years, I have handled a diverse range of cases involving litigation, client counseling, legal drafting, and alternate dispute resolution (ADR). I believe that every client deserves personal attention, clear communication, and honest legal advice—and that is exactly what I strive to provide in every matter I take on.
+          I have managed a wide range of legal matters, including litigation, client counseling, legal drafting, and alternative dispute resolution (ADR). My approach centers on personal attention, honest advice, and clear communication, ensuring that every client’s concerns are addressed with care and dedication.
         </p>
       </div>
 

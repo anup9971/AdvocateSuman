@@ -25,24 +25,13 @@ const ContactHome = () => {
             <ul className="address-list">
               <li>
                 <span className="icon">📍</span>
-                201, Second Floor, Sincere Tower, Commercial Complex, Preet Vihar Near Petrol Pump, Delhi-110092.
+                1031, Mahipalpur , Vasant kunj Bypass, Road, Mahipalpur Extension, New Delhi, delhi, Delhi 110037
               </li>
-              <li>
-                <span className="icon">📍</span>
-                23, Lawyers’ Chamber, Supreme Court of India, New Delhi-110001.
-              </li>
-              <li>
-                <span className="icon">📍</span>
-                Chamber No. 189, Tis Hazari Court, Delhi-110054.
-              </li>
-              <li>
-                <span className="icon">📍</span>
-                G-401 Lawyers' Chamber, Karkardooma Court, Delhi-110032.
-              </li>
+           
             </ul>
             <p className="info">
               <span className="icon">✉️</span> Emails:{" "}
-              <a href="mailto:advocatesandhya@yahoo.in">advocatesandhya@yahoo.in</a>
+              <a href="mailto:Info@sukhjurist.com">Info@sukhjurist.com</a>
             </p>
             <p className="info">
               <span className="icon">📞</span> Mob:{" "}

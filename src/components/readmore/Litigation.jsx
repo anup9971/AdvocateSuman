@@ -77,8 +77,7 @@ function Litigation() {
         <img src={img} alt="Litigation Law Services" style={styles.heroImage} />
         <h1 style={styles.heading}>Expert Litigation Services in Delhi</h1>
         <p style={styles.paragraph}>
-          Our litigation team provides strategic advice and strong courtroom representation.
-          From civil to criminal matters, we ensure our clients are heard and protected.
+          Providing diligent representation in a wide range of civil and criminal disputes. Each case is handled with thorough preparation, clear communication, and a focus on the client’s interests both inside and outside the courtroom.
         </p>
         <h2 style={styles.subHeading}>Why Choose Us?</h2>
         <ul style={styles.list}>

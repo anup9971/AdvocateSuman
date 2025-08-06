@@ -20,7 +20,7 @@ const practiceAreas = [
 function PracticeArea() {
   const navigate = useNavigate();
 
-  function handleBlogClick(title) {
+  function handleBlogClick(title) {  
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
     if (title === 'Litigation') navigate('/readmore/litigation');
@@ -42,6 +42,7 @@ function PracticeArea() {
             className="practice-card"
             onClick={() => handleBlogClick(area.title)}
           >
+
             <img src={area.image} alt={area.title} className="practice-image" />
             <div className="practice-overlay">
               <h3>{area.title}</h3>

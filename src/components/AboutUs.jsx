@@ -76,24 +76,24 @@ const About = () => {
             <div data-aos="fade-up">
               <h2 style={headingStyle}>Our Philosophy</h2>
               <p style={{ ...paragraphStyle, ...hoverEffect }}>
-                At our firm, we believe that justice is not just a concept but a commitment. Our goal is to ensure that every client receives the highest level of representation and the best possible outcome, regardless of the complexity of their case.
+                Justice is at the core of everything we do. We believe every client deserves attentive representation and the best possible outcome, no matter how complex their matter may be. Our commitment is to treat each case with care, diligence, and integrity.
               </p>
             </div>
 
             <div data-aos="fade-up">
               <h2 style={headingStyle}>Our Team</h2>
               <p style={{ ...paragraphStyle, ...hoverEffect }}>
-                We are a team of experienced legal professionals with deep expertise across various practice areas including litigation, dispute resolution, regulatory compliances, and corporate advisory. Our advocates are not just lawyers—they are trusted advisors to our clients.
+               Our firm brings together dedicated legal professionals with expertise spanning litigation, dispute resolution, regulatory and corporate advisory, and compliance matters. We are more than just lawyers—each team member serves as a trusted advisor, committed to the interests and well- being of our clients.
               </p>
             </div>
 
             <div data-aos="fade-up">
               <h2 style={headingStyle}>Why Choose Us?</h2>
               <ul style={listStyle}>
-                <li>✅ Proven track record of successful case resolutions</li>
-                <li>✅ Personalized attention and strategic legal planning</li>
-                <li>✅ Transparent communication throughout your legal journey</li>
-                <li>✅ Ethical and professional conduct always at the forefront</li>
+                <li>✅ Consistent record of successful and practical legal outcomes</li>
+                <li>✅ Personalised guidance and thoughtful legal strategies for each client</li>
+                <li>✅ Clear and transparent communication through every step of your case</li>
+                <li>✅ Ethical practice and professionalism at the heart of our work</li>
               </ul>
             </div>
           </div>

@@ -7,12 +7,12 @@ const HeroSection = () => {
   <div className="hero-overlay">
     <div className="hero-content">
           <h1>
-            Professional Legal Representation with Integrity and Experience
+            Trusted Legal Counsel with Integrity and Focus
           </h1>
           <p>
-            Welcome to the official website of Advocate <strong>Suman Khatri</strong>, a trusted legal professional offering comprehensive legal services across civil law, criminal law, and ADR.
+            Welcome to the official website of Advocate  <strong>Suman Khatri—</strong>your dependable lawyer in New Delhi for civil, criminal, and ADR matters. Every client receives honest advice, clear communication, and tailored legal support.
             <br /><br />
-            Practicing since 2019, I bring deep legal knowledge, courtroom expertise, and a client-focused approach to every case. Whether you require expert legal drafting, litigation services, or confidential legal advice, my mission is to provide strategic, result-oriented solutions tailored to your needs.
+            Whether you need legal drafting, courtroom representation, or confidential guidance, I am committed to providing ethical, solution-focused legal services with respect for your needs.
           </p>
           <div className="hero-buttons">
         <a href="/contact" className="btn primary">Consultation Now</a>
