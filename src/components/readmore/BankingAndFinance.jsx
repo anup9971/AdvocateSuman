@@ -178,7 +178,7 @@ function BankingAndFinance() {
         `}
             </style>
 
-            <div className="banking-container">
+                <div className="   banking-container">
                 <div className="main-content">
                     <img src={img} alt="Banking and Finance Law Services" className="hero-img" />
 
