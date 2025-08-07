@@ -1,5 +1,5 @@
 import React from "react";
-// import img from "../../assests/blog1.jpg";
+import img from "../../assests/blog1.jpg";
 // import { Link } from "react-router-dom";
 
 function CorporateAdvisoryAndRegulatoryCompliances() {
@@ -180,7 +180,7 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
 
       <div className="corporate-container">
         <div className="main-content">
-          {/* <img src={img} alt="Corporate Advisory Services" className="hero-img" /> */}
+          <img src={img} alt="Corporate Advisory Services" className="hero-img" />
 
           <div className="section">
             <h1 className="heading">Corporate Advisory & Regulatory Compliances</h1>

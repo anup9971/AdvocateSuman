@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-// import img from "../../assests/blog1.jpg"; // Replace with relevant image
+import img from "../../assests/blog1.jpg"; // Replace with relevant image
 // import { Link } from "react-router-dom";
 
 function TechnologyMediaAndCommunication() {
@@ -40,11 +40,11 @@ function TechnologyMediaAndCommunication() {
   return (
     <div className="tech-container" style={styles.pageContainer}>
       <div className="main-content" style={styles.mainContent}>
-        {/* <img
+        <img
           src={img}
           alt="Technology, Media & Communication"
           style={styles.heroImage}
-        /> */}
+        />
         <h1 className="heading" style={styles.heading}>
           Technology, Media & Communication Law Experts in Delhi
         </h1>

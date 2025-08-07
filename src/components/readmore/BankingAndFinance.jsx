@@ -1,5 +1,5 @@
 import React from "react";
-// import img from "../../assests/blog1.jpg";
+import img from "../../assests/blog1.jpg";
 // import { Link } from "react-router-dom";
 
 function BankingAndFinance() {
@@ -180,7 +180,7 @@ function BankingAndFinance() {
 
             <div className="banking-container">
                 <div className="main-content">
-                    {/* <img src={img} alt="Banking and Finance Law Services" className="hero-img" /> */}
+                    <img src={img} alt="Banking and Finance Law Services" className="hero-img" />
 
                     <div className="section">
                         <h1 className="heading">Trusted Banking and Finance Legal Services in Delhi</h1>

@@ -1,16 +1,16 @@
 import React from "react";
-// import img from "../../assests/blog1.jpg"; // Replace with actual image if different
+import img from "../../assests/blog1.jpg"; // Replace with actual image if different
 // import { Link } from "react-router-dom";
 
 function DisputeResolution() {
   return (
     <div style={styles.pageContainer}>
       <div style={styles.mainContent}>
-        {/* <img
+        <img
           src={img}
           alt="Dispute Resolution Services"
           style={styles.heroImage}
-        /> */}
+        />
         <h1 style={styles.heading}>
           Effective Dispute Resolution Services in Delhi
         </h1>

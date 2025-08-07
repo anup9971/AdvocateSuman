@@ -1,5 +1,5 @@
 import React from "react";
-// import img from "../../assests/blog1.jpg";
+import img from "../../assests/blog1.jpg";
 // import { Link } from "react-router-dom";
 
 function Competition() {
@@ -180,7 +180,7 @@ function Competition() {
 
       <div className="banking-container">
         <div className="main-content">
-          {/* <img src={img} alt="Competition Law Services" className="hero-img" /> */}
+          <img src={img} alt="Competition Law Services" className="hero-img" />
 
           <div className="section">
             <h1 className="heading">Competition Law Experts in Delhi</h1>
