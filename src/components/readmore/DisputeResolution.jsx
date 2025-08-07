@@ -44,24 +44,27 @@ function DisputeResolution() {
 }
 
 const styles = {
-  pageContainer: {
-    display: "flex",
-    padding: "30px",
-    backgroundColor: "#f9f9f9",
-    fontFamily: "Arial, sans-serif",
-    color: "#222",
-    flexWrap: "wrap", // responsive
-  },
-  mainContent: {
-    flex: "3",
-    backgroundColor: "#fff",
-    padding: "30px",
-    borderRadius: "10px",
-    marginRight: "30px",
-    boxShadow: "0 0 10px rgba(0,0,0,0.1)",
-    minWidth: "300px",
-    flexBasis: "60%",
-  },
+ pageContainer: {
+  display: "flex",
+  justifyContent: "center",      // Center horizontally
+  alignItems: "center",          // Center vertically (optional)
+  padding: "20px",
+  backgroundColor: "#f9f9f9",
+  fontFamily: "Arial, sans-serif",
+  color: "#222",
+  flexWrap: "wrap",
+},
+
+ mainContent: {
+  width: "100%",
+  maxWidth: "700px",             // Card max width
+  backgroundColor: "#fff",
+  padding: "20px",
+  borderRadius: "10px",
+  boxShadow: "0 0 10px rgba(0,0,0,0.1)",
+  margin: "0 auto",
+},
+
   sidebar: {
     flex: "1",
     backgroundColor: "#fff",
