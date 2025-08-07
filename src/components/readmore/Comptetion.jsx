@@ -1,6 +1,6 @@
 import React from "react";
-import img from "../../assests/blog1.jpg";
-import { Link } from "react-router-dom";
+// import img from "../../assests/blog1.jpg";
+// import { Link } from "react-router-dom";
 
 function Competition() {
   return (
@@ -180,7 +180,7 @@ function Competition() {
 
       <div className="banking-container">
         <div className="main-content">
-          <img src={img} alt="Competition Law Services" className="hero-img" />
+          {/* <img src={img} alt="Competition Law Services" className="hero-img" /> */}
 
           <div className="section">
             <h1 className="heading">Competition Law Experts in Delhi</h1>
@@ -217,7 +217,7 @@ function Competition() {
           </div>
         </div>
 
-        <div className="sidebar">
+        {/* <div className="sidebar">
           <h3>More Practice Areas</h3>
           <ul>
             <li><Link to="/readmore/litigation" onClick={() => window.scrollTo(0, 0)}>Litigation</Link></li>
@@ -227,7 +227,7 @@ function Competition() {
 <li><Link to="/readmore/technology-media" onClick={() => window.scrollTo(0, 0)}>Technology & Media</Link></li>
 
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );

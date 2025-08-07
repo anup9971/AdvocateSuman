@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import img from "../../assests/blog1.jpg";
-import { Link } from "react-router-dom";
+// import img from "../../assests/blog1.jpg";
+// import { Link } from "react-router-dom";
 
 function Litigation() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -74,7 +74,7 @@ function Litigation() {
   return (
     <div style={styles.pageContainer}>
       <div style={styles.mainContent}>
-        <img src={img} alt="Litigation Law Services" style={styles.heroImage} />
+        {/* <img src={img} alt="Litigation Law Services" style={styles.heroImage} /> */}
         <h1 style={styles.heading}>Expert Litigation Services in Delhi</h1>
         <p style={styles.paragraph}>
           Providing diligent representation in a wide range of civil and criminal disputes. Each case is handled with thorough preparation, clear communication, and a focus on the client’s interests both inside and outside the courtroom.
@@ -87,7 +87,7 @@ function Litigation() {
         </ul>
       </div>
 
-      <div style={styles.sidebar}>
+      {/* <div style={styles.sidebar}>
         <h3 style={styles.sidebarHeading}>More Practice Areas</h3>
         <ul style={styles.sidebarList}>
          <li><Link to="/readmore/litigation" onClick={() => window.scrollTo(0, 0)}>Litigation</Link></li>
@@ -97,7 +97,7 @@ function Litigation() {
 <li><Link to="/readmore/technology-media" onClick={() => window.scrollTo(0, 0)}>Technology & Media</Link></li>
 
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }

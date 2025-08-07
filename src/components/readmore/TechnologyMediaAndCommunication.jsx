@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import img from "../../assests/blog1.jpg"; // Replace with relevant image
-import { Link } from "react-router-dom";
+// import img from "../../assests/blog1.jpg"; // Replace with relevant image
+// import { Link } from "react-router-dom";
 
 function TechnologyMediaAndCommunication() {
   useEffect(() => {
@@ -40,11 +40,11 @@ function TechnologyMediaAndCommunication() {
   return (
     <div className="tech-container" style={styles.pageContainer}>
       <div className="main-content" style={styles.mainContent}>
-        <img
+        {/* <img
           src={img}
           alt="Technology, Media & Communication"
           style={styles.heroImage}
-        />
+        /> */}
         <h1 className="heading" style={styles.heading}>
           Technology, Media & Communication Law Experts in Delhi
         </h1>
@@ -63,7 +63,7 @@ function TechnologyMediaAndCommunication() {
         </ul>
       </div>
 
-      <div className="sidebar" style={styles.sidebar}>
+      {/* <div className="sidebar" style={styles.sidebar}>
         <h3 style={styles.sidebarHeading}>More Practice Areas</h3>
         <ul style={styles.sidebarList}>
         <li><Link to="/readmore/litigation" onClick={() => window.scrollTo(0, 0)}>Litigation</Link></li>
@@ -73,7 +73,7 @@ function TechnologyMediaAndCommunication() {
 <li><Link to="/readmore/technology-media" onClick={() => window.scrollTo(0, 0)}>Technology & Media</Link></li>
 
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }

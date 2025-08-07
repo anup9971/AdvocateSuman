@@ -1,16 +1,16 @@
 import React from "react";
-import img from "../../assests/blog1.jpg"; // Replace with actual image if different
-import { Link } from "react-router-dom";
+// import img from "../../assests/blog1.jpg"; // Replace with actual image if different
+// import { Link } from "react-router-dom";
 
 function DisputeResolution() {
   return (
     <div style={styles.pageContainer}>
       <div style={styles.mainContent}>
-        <img
+        {/* <img
           src={img}
           alt="Dispute Resolution Services"
           style={styles.heroImage}
-        />
+        /> */}
         <h1 style={styles.heading}>
           Effective Dispute Resolution Services in Delhi
         </h1>
@@ -28,7 +28,7 @@ function DisputeResolution() {
         </ul>
       </div>
 
-      <div style={styles.sidebar}>
+      {/* <div style={styles.sidebar}>
         <h3 style={styles.sidebarHeading}>More Practice Areas</h3>
         <ul style={styles.sidebarList}>
           <li><Link to="/readmore/litigation" onClick={() => window.scrollTo(0, 0)}>Litigation</Link></li>
@@ -38,7 +38,7 @@ function DisputeResolution() {
 <li><Link to="/readmore/technology-media" onClick={() => window.scrollTo(0, 0)}>Technology & Media</Link></li>
 
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
