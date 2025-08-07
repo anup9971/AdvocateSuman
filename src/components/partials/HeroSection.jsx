@@ -15,7 +15,7 @@ const HeroSection = () => {
             Whether you need legal drafting, courtroom representation, or confidential guidance, I am committed to providing ethical, solution-focused legal services with respect for your needs.
           </p>
           <div className="hero-buttons">
-        <a href="/contact" className="btn primary">Consultation Now</a>
+        <a href="/contact" className="btn primary">Consult Now !</a>
         <HashLink smooth to="/#about" className="btn outline">Start Exploring ↓</HashLink>
       </div>
     </div>

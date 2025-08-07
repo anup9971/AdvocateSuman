@@ -125,7 +125,10 @@ function PracticeArea() {
             <img src={area.image} alt={area.title} className="practice-image" />
             <div className="practice-overlay">
               <h3>{area.title}</h3>
-              <button className="read-more-btn btn btn-light">READ MORE</button>
+              <button className="read-more-btn btn btn-light px-3 py-1" style={{ width: 'auto' }}>
+  READ MORE
+</button>
+
             </div>
           </div>
         ))}
