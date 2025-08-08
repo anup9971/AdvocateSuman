@@ -117,7 +117,7 @@ logo: {
   height: '50px',
   width: '100px',
   objectFit: 'contain',
-  marginBottom: '2px'
+  // marginBottom: '2px'
 },
 subText: {
   fontSize: '14px',
@@ -125,7 +125,10 @@ subText: {
   color: '#E8D8C4',
   textTransform: 'lowercase',
   textAlign: 'left', // left aligned text
-  margin: 0
+  margintop: '0px', // thoda space upar
+  marginBottom: '0px', // no bottom margin,
+  marginLeft: '8px' ,// thoda left se gap,
+  marginRight: '0px' // no right margin
 },
 
   menuIcon: {
