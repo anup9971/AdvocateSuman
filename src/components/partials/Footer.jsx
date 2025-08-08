@@ -18,9 +18,9 @@ const Footer = () => {
           <h4>Contact</h4>
           <ul>
             <li>
-              <a href="tel:+919999999999" aria-label="Call">
+              <a href="tel:+918800417772" aria-label="Call">
                 <FaPhoneAlt style={{ marginRight: '8px' }} />
-                +91 99999 99999
+                +91 8800 417772
               </a>
             </li>
             <li>

@@ -35,8 +35,8 @@ const ContactHome = () => {
             </p>
             <p className="info">
               <span className="icon">📞</span> Mob:{" "}
-              <a href="tel:+919911077828">9911077828</a>,{" "}
-              <a href="tel:+919811177828">9811177828</a>
+              <a href="tel:+919911077828">8800417772</a>,{" "}
+              {/* <a href="tel:+919811177828">9811177828</a> */}
             </p>
           </div>
         </div>
@@ -50,7 +50,7 @@ const ContactHome = () => {
   {/* ----------- Desktop View (md and above): single row ----------- */}
   <Row className="justify-content-center d-none d-md-flex mb-5">
     {[ 
-      { name: 'Phone', icon: phone, link: 'tel:+911234567890', label: '+91 1234567890' },
+      { name: 'Phone', icon: phone, link: 'tel:+918800417772', label: '+91 8800417772' },
       { name: 'Instagram', icon: instagram, link: 'https://instagram.com', label: 'Instagram' },
       { name: 'LinkedIn', icon: linkedin, link: 'https://linkedin.com', label: 'LinkedIn' },
       { name: 'Twitter', icon: twitter, link: 'https://twitter.com', label: 'Twitter' },
@@ -82,7 +82,7 @@ const ContactHome = () => {
     <Row className="justify-content-center mb-4">
       <Col xs="auto" className="contact-item text-center">
         <a
-          href="tel:+911234567890"
+          href="tel:+918800417772"
           className="social-link"
           onMouseEnter={() => handleMouseEnter('Phone')}
           onMouseLeave={handleMouseLeave}
@@ -93,7 +93,7 @@ const ContactHome = () => {
           }}
         >
           <img src={phone} width={50} height={50} alt="Phone" />
-          <p style={styles.text}>+91 1234567890</p>
+          <p style={styles.text}>+91 8800417772</p>
         </a>
       </Col>
     </Row>
