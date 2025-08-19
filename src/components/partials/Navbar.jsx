@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import logo from '../../assests/red-logo.png';
+import logo from '../../assests/sukhjurist_logo_image.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -66,46 +66,7 @@ const styles = {
     zIndex: 1000,
     flexWrap: 'wrap'
   },
-  // logoContainer: {
-  //   display: 'flex',
-  //   flexDirection: 'column',
-  //   alignItems: 'center',
-  // },
-  // logo: {
-  //   height: '50px',
-  //   width: '100px',
-  //   objectFit: 'fill',
-  //   marginBottom: '4px'
-  // },
-  // subText: {
-  //   fontSize: '14px',
-  //   fontWeight: '500',
-  //   color: '#E8D8C4',
-  //   textTransform: 'lowercase',
-  //   textAlign: 'center',
-  //   margin: 0
-  // },
-//   logoContainer: {
-//   display: 'flex',
-//   flexDirection: 'column', // keeps logo above text
-//   alignItems: 'center', // horizontally centers both together
-//   justifyContent: 'center', // vertically aligns them as a unit
-//   lineHeight: '1.2' // reduces gap between logo & text
-// },
-// logo: {
-//   height: '50px',
-//   width: '100px',
-//   objectFit: 'contain',
-//   marginBottom: '2px' // tighter spacing
-// },
-// subText: {
-//   fontSize: '14px',
-//   fontWeight: '500',
-//   color: '#E8D8C4',
-//   textTransform: 'lowercase',
-//   textAlign: 'center',
-//   margin: 0
-// },
+  
 logoContainer: {
   display: 'flex',
   flexDirection: 'column', // logo upar, text neeche
@@ -114,10 +75,10 @@ logoContainer: {
   lineHeight: '1.2'
 },
 logo: {
-  height: '50px',
-  width: '100px',
+  height: '100px',
+  width: '208px',
   objectFit: 'contain',
-  // marginBottom: '2px'
+overFlow: 'hidden',  
 },
 subText: {
   fontSize: '14px',
@@ -127,7 +88,7 @@ subText: {
   textAlign: 'left', // left aligned text
   margintop: '5px', // thoda space upar
   marginBottom: '5px', // no bottom margin,
-  marginLeft: '8px' ,// thoda left se gap,
+  marginLeft: '20px' ,// thoda left se gap,
   marginRight: '5px' // no right margin
 },
 

@@ -1,5 +1,6 @@
 import React from 'react';
-import aboutImage from '../assests/hero.png';
+// import aboutImage from '../assests/female advocate image.png';
+import aboutImage from '../assests/female_advocate_image.png';
 import AboutMe from './partials/AboutMe';
 // import { Link } from 'react-router-dom';
 
