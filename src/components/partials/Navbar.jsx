@@ -60,7 +60,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    padding: '10px 30px',
+    padding: '0px 15px',
     backgroundColor: '#561C24',
     position: 'relative',
     zIndex: 1000,
@@ -72,13 +72,20 @@ logoContainer: {
   flexDirection: 'column', // logo upar, text neeche
   alignItems: 'flex-start', // left se start kare
   justifyContent: 'center',
-  lineHeight: '1.2'
+  lineHeight: '0.5',
+  // marginBottom: '5px',
+  paddingBottom: '0px',
+  marginTop:"-10px",
+
+  
 },
 logo: {
   height: '100px',
   width: '208px',
-  objectFit: 'contain',
-overFlow: 'hidden',  
+  // objectFit: 'contain',
+// overFlow: 'hidden',  
+    margin: '0px',
+
 },
 subText: {
   fontSize: '14px',
@@ -86,10 +93,11 @@ subText: {
   color: '#E8D8C4',
   textTransform: 'lowercase',
   textAlign: 'left', // left aligned text
-  margintop: '5px', // thoda space upar
-  marginBottom: '5px', // no bottom margin,
-  marginLeft: '20px' ,// thoda left se gap,
-  marginRight: '5px' // no right margin
+  marginTop: '-5px',
+  // marginBottom: '5px', 
+  marginLeft: '16px' ,
+  // marginRight: '5px' 
+  
 },
 
   menuIcon: {
