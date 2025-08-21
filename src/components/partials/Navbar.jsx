@@ -21,11 +21,9 @@ const Navbar = () => {
   return (
     <header style={styles.header}>
       <div style={styles.logoContainer}>
-       <Link to="/">
-        <img src={logo} alt="Logo" style={styles.logo} />
-       </Link>
-        <p style={styles.subText}>law offices by suman khatri</p>
-
+        <Link to="/" style={{ display: "inline-block" }}>
+          <img src={logo} alt="Logo" style={styles.logo} />
+        </Link>
       </div>
 
       {isMobile && (
@@ -56,57 +54,43 @@ const Navbar = () => {
 };
 
 const styles = {
-  header: {
+header: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    padding: '0px 15px',
+    padding: '0 20px',
     backgroundColor: '#561C24',
     position: 'relative',
     zIndex: 1000,
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
+    height: '90px',       // thoda chhota fix height
+    overflow: 'hidden',   // bahar nikalne se rokega
   },
-  
-logoContainer: {
-  display: 'flex',
-  flexDirection: 'column', // logo upar, text neeche
-  alignItems: 'flex-start', // left se start kare
-  justifyContent: 'center',
-  lineHeight: '0.5',
-  // marginBottom: '5px',
-  paddingBottom: '0px',
-  marginTop:"-10px",
 
-  
-},
-logo: {
-  height: '100px',
-  width: '208px',
-  // objectFit: 'contain',
-// overFlow: 'hidden',  
-    margin: '0px',
+  logoContainer: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    margin: 0,
+    padding: 0,
+    height: '100%',
+  },
 
-},
-subText: {
-  fontSize: '14px',
-  fontWeight: '500',
-  color: '#E8D8C4',
-  textTransform: 'lowercase',
-  textAlign: 'left', // left aligned text
-  marginTop: '-5px',
-  // marginBottom: '5px', 
-  marginLeft: '16px' ,
-  // marginRight: '5px' 
-  
-},
-
+  logo: {
+    height: '85px',       // header se thoda chhota
+    width: 'auto',
+    margin: 0,
+    padding: 0,
+    display: 'block',
+    objectFit: 'contain', // pura logo dikhane ke liye
+  },
   menuIcon: {
     cursor: 'pointer',
-    zIndex: 1100
+    zIndex: 1100,
   },
   navLinks: {
     display: 'flex',
-    gap: '30px'
+    gap: '30px',
   },
   fullScreenMenu: {
     position: 'fixed',
@@ -126,8 +110,9 @@ subText: {
     textDecoration: 'none',
     color: '#E8D8C4',
     fontSize: '20px',
-    fontWeight: '600'
-  }
+    fontWeight: '600',
+  },
+  
 };
 
 export default Navbar;
