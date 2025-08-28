@@ -82,7 +82,7 @@ const styles = {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    padding: '0 30px',
+    padding: '0 40px',
     backgroundColor: '#561C24',
     position: 'relative',
     zIndex: 1000,
