@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import logo from '../../assests/sukhjurist_logo_image.png';
+// import logo from '../../assests/sukhjurist_logo_image.png';
+import logo from '../../assests/sukhjurist logo for website@2x.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [active, setActive] = useState("/"); // active link track karne ke liye
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -17,6 +19,28 @@ const Navbar = () => {
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
+
+  // helper function link render karne ke liye
+  const renderLink = (to, label) => (
+    <Link
+      to={to}
+      onClick={() => {
+        setActive(to);
+        if (isMobile) toggleMenu();
+      }}
+      style={{
+        ...styles.link,
+        borderBottom: active === to ? "2px solid #E8D8C4" : "2px solid transparent",
+        transition: "border-color 0.3s ease",
+      }}
+      onMouseEnter={(e) => (e.target.style.borderBottom = "2px solid #E8D8C4")}
+      onMouseLeave={(e) =>
+        (e.target.style.borderBottom = active === to ? "2px solid #E8D8C4" : "2px solid transparent")
+      }
+    >
+      {label}
+    </Link>
+  );
 
   return (
     <header style={styles.header}>
@@ -35,18 +59,18 @@ const Navbar = () => {
       {/* Mobile full-screen menu */}
       {isMobile && isOpen && (
         <div style={styles.fullScreenMenu}>
-          <Link to="/" style={styles.link} onClick={toggleMenu}>Home</Link>
-          <Link to="/about" style={styles.link} onClick={toggleMenu}>About Us</Link>
-          <Link to="/contact" style={styles.link} onClick={toggleMenu}>Contact Us</Link>
+          {renderLink("/", "Home")}
+          {renderLink("/about", "About Us")}
+          {renderLink("/contact", "Contact Us")}
         </div>
       )}
 
       {/* Desktop menu */}
       {!isMobile && (
         <nav style={styles.navLinks}>
-          <Link to="/" style={styles.link}>Home</Link>
-          <Link to="/about" style={styles.link}>About Us</Link>
-          <Link to="/contact" style={styles.link}>Contact Us</Link>
+          {renderLink("/", "Home")}
+          {renderLink("/about", "About Us")}
+          {renderLink("/contact", "Contact Us")}
         </nav>
       )}
     </header>
@@ -54,19 +78,18 @@ const Navbar = () => {
 };
 
 const styles = {
-header: {
+  header: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
-    padding: '0 20px',
+    padding: '0 30px',
     backgroundColor: '#561C24',
     position: 'relative',
     zIndex: 1000,
     flexWrap: 'wrap',
-    height: '90px',       // thoda chhota fix height
-    overflow: 'hidden',   // bahar nikalne se rokega
+    height: '90px',
+    overflow: 'hidden',
   },
-
   logoContainer: {
     display: 'flex',
     alignItems: 'center',
@@ -75,14 +98,13 @@ header: {
     padding: 0,
     height: '100%',
   },
-
   logo: {
-    height: '85px',       // header se thoda chhota
+    height: '85px',
     width: 'auto',
     margin: 0,
     padding: 0,
     display: 'block',
-    objectFit: 'contain', // pura logo dikhane ke liye
+    objectFit: 'contain',
   },
   menuIcon: {
     cursor: 'pointer',
@@ -111,8 +133,8 @@ header: {
     color: '#E8D8C4',
     fontSize: '20px',
     fontWeight: '600',
+    paddingBottom: '4px',
   },
-  
 };
 
 export default Navbar;
