@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 // import logo from '../../assests/sukhjurist_logo_image.png';
+import headerBg from '../../assests/sukhjurist_header_bg.jpg';
+
 import logo from '../../assests/sukhjurist logo for website@2x.png';
 
 const Navbar = () => {
@@ -83,8 +85,9 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'space-between',
     padding: '0 40px',
-    backgroundColor: '#561C24',
-    position: 'relative',
+    // backgroundColor: '#561C24',
+    backgroundImage: `url(${headerBg})`,
+
     zIndex: 1000,
     flexWrap: 'wrap',
     height: '90px',
