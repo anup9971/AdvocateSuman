@@ -58,7 +58,7 @@ const Navbar = () => {
       style={{
         ...styles.header,
         backgroundImage: `url(${headerBg})`,
-        height: isMobile ? "80px" : "120px",
+        height: isMobile ? "120px" : "120px",
         padding: isMobile ? "0 20px" : "0 40px",
       }}
     >
@@ -68,7 +68,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="Logo"
-            style={{ ...styles.logo, height: isMobile ? "60px" : "120px" }}
+            style={{ ...styles.logo, height: isMobile ? "100px" : "120px" }}
           />
         </Link>
       </div>
