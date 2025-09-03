@@ -1,28 +1,34 @@
-import React, { useState, useEffect } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-// import logo from '../../assests/sukhjurist_logo_image.png';
-import headerBg from '../../assests/header.png';
+import React, { useState, useEffect } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
-import logo from '../../assests/sukhjurist llogo 2@2x.png';
+// Assets
+import headerBg from "../../assests/header.png";
+import logo from "../../assests/sukhjurist llogo 2@2x.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
-  const [active, setActive] = useState("/"); // active link track karne ke liye
+  const [active, setActive] = useState("/");
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
+  // Handle resize
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
-      if (window.innerWidth > 768) setIsOpen(false); // close menu on desktop resize
+      if (window.innerWidth > 768) setIsOpen(false);
     };
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // helper function link render karne ke liye
+  // Disable scroll when mobile menu open
+  useEffect(() => {
+    document.body.style.overflow = isOpen && isMobile ? "hidden" : "auto";
+  }, [isOpen, isMobile]);
+
+  // Helper function to render links
   const renderLink = (to, label) => (
     <Link
       to={to}
@@ -32,12 +38,15 @@ const Navbar = () => {
       }}
       style={{
         ...styles.link,
-        borderBottom: active === to ? "2px solid #E8D8C4" : "2px solid transparent",
-        transition: "border-color 0.3s ease",
+        borderBottom:
+          active === to ? "2px solid #E8D8C4" : "2px solid transparent",
       }}
-      onMouseEnter={(e) => (e.target.style.borderBottom = "2px solid #E8D8C4")}
+      onMouseEnter={(e) =>
+        (e.target.style.borderBottom = "2px solid #E8D8C4")
+      }
       onMouseLeave={(e) =>
-        (e.target.style.borderBottom = active === to ? "2px solid #E8D8C4" : "2px solid transparent")
+        (e.target.style.borderBottom =
+          active === to ? "2px solid #E8D8C4" : "2px solid transparent")
       }
     >
       {label}
@@ -45,16 +54,33 @@ const Navbar = () => {
   );
 
   return (
-    <header style={styles.header}>
+    <header
+      style={{
+        ...styles.header,
+        backgroundImage: `url(${headerBg})`,
+        height: isMobile ? "80px" : "120px",
+        padding: isMobile ? "0 20px" : "0 40px",
+      }}
+    >
+      {/* Logo */}
       <div style={styles.logoContainer}>
         <Link to="/" style={{ display: "inline-block" }}>
-          <img src={logo} alt="Logo" style={styles.logo} />
+          <img
+            src={logo}
+            alt="Logo"
+            style={{ ...styles.logo, height: isMobile ? "60px" : "120px" }}
+          />
         </Link>
       </div>
 
+      {/* Mobile menu icon */}
       {isMobile && (
         <div style={styles.menuIcon} onClick={toggleMenu}>
-          {isOpen ? <FaTimes size={24} color="#E8D8C4" /> : <FaBars size={24} color="#E8D8C4" />}
+          {isOpen ? (
+            <FaTimes size={26} color="#E8D8C4" />
+          ) : (
+            <FaBars size={26} color="#E8D8C4" />
+          )}
         </div>
       )}
 
@@ -80,65 +106,62 @@ const Navbar = () => {
 };
 
 const styles = {
-   header: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    padding: '0 40px',
-    // backgroundColor: '#561C24',
-    backgroundImage: `url(${headerBg})`,
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat', // ✅ camelCase
-
+  header: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
     zIndex: 1000,
-    flexWrap: 'wrap',
-    height: '120px',
-    overflow: 'hidden',
+    flexWrap: "wrap",
+    overflow: "hidden",
   },
   logoContainer: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'flex-start',
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-start",
     margin: 0,
     padding: 0,
-    height: '100%',
+    height: "100%",
   },
   logo: {
-    height: '120px',
-    width: 'auto',
+    width: "auto",
     margin: 0,
     padding: 0,
-    display: 'block',
-    objectFit: 'contain',
+    display: "block",
+    objectFit: "contain",
+    transition: "height 0.3s ease",
   },
   menuIcon: {
-    cursor: 'pointer',
+    cursor: "pointer",
     zIndex: 1100,
   },
   navLinks: {
-    display: 'flex',
-    gap: '30px',
+    display: "flex",
+    gap: "30px",
   },
   fullScreenMenu: {
-    position: 'fixed',
+    position: "fixed",
     top: 0,
     left: 0,
-    width: '100vw',
-    height: '100vh',
-    backgroundColor: '#561C24',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    gap: '40px',
+    width: "100vw",
+    height: "100vh",
+    backgroundColor: "#561C24",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    gap: "40px",
     zIndex: 1000,
+    transition: "all 0.3s ease",
   },
   link: {
-    textDecoration: 'none',
-    color: '#E8D8C4',
-    fontSize: '20px',
-    fontWeight: '600',
-    paddingBottom: '4px',
+    textDecoration: "none",
+    color: "#E8D8C4",
+    fontSize: "20px",
+    fontWeight: "600",
+    paddingBottom: "4px",
+    transition: "all 0.3s ease",
   },
 };
 
