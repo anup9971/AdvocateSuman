@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 // import logo from '../../assests/sukhjurist_logo_image.png';
-import headerBg from '../../assests/sukhjurist_header_bg.jpg';
+import headerBg from '../../assests/header.png';
 
-import logo from '../../assests/sukhjurist logo for website@2x.png';
+import logo from '../../assests/sukhjurist llogo 2@2x.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -80,17 +80,19 @@ const Navbar = () => {
 };
 
 const styles = {
-  header: {
+   header: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
     padding: '0 40px',
     // backgroundColor: '#561C24',
     backgroundImage: `url(${headerBg})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat', // ✅ camelCase
 
     zIndex: 1000,
     flexWrap: 'wrap',
-    height: '90px',
+    height: '120px',
     overflow: 'hidden',
   },
   logoContainer: {
@@ -102,7 +104,7 @@ const styles = {
     height: '100%',
   },
   logo: {
-    height: '85px',
+    height: '120px',
     width: 'auto',
     margin: 0,
     padding: 0,

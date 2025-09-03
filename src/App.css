@@ -649,7 +649,9 @@ body {
 .full-footer {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  background-color: #561C24;
+ background-image: url('./assests/Footer.png');
+ background-repeat: no-repeat;
+ background-size: cover; 
   color: white;
   padding: 40px 20px 20px;
   font-family: 'Georgia', serif;
