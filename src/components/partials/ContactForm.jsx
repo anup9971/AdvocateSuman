@@ -1,4 +1,4 @@
-// 2.
+
 import React from 'react';
 import "../../assests/style.css";
 

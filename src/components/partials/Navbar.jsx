@@ -107,6 +107,7 @@ const Navbar = () => {
 
 const styles = {
   header: {
+    
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
@@ -114,7 +115,8 @@ const styles = {
     backgroundRepeat: "no-repeat",
     zIndex: 1000,
     flexWrap: "wrap",
-    overflow: "hidden",
+    overflowX: "hidden",
+    // overflow-x: "hidden",
   },
   logoContainer: {
     display: "flex",

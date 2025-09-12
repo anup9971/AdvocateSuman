@@ -11,10 +11,11 @@ import CorporateAdvisoryAndRegulatoryCompliances from './components/readmore/Cor
 import DisputeResolution from './components/readmore/DisputeResolution';
 import Comptetion from './components/readmore/Comptetion';
 import TechnologyMediaAndCommunication from './components/readmore/TechnologyMediaAndCommunication';
-
+import {  HelmetProvider } from "react-helmet-async";
 function App() {
   return (
     <Router>
+      <HelmetProvider>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -28,6 +29,7 @@ function App() {
         <Route path='/readmore/technology-media' element={<TechnologyMediaAndCommunication />} />
       </Routes>
       <Footer />
+      </HelmetProvider>
     </Router>
   );
 }

@@ -3,6 +3,7 @@ import aboutImage from '../assests/hero.png';
 import AboutMe from './partials/AboutMe';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Helmet } from 'react-helmet-async';
 
 const About = () => {
   useEffect(() => {
@@ -51,11 +52,28 @@ const About = () => {
 
   return (
     <>
-      <div className="banner">
+
+             <Helmet>
+              <title> About - Advocate Sukhjurist</title>
+              <meta
+                name="description"
+                content="Learn about Advocate Sukhjurist background, legal expertise, values & mission. Serving clients in Delhi with integrity, professionalism, and dedication."
+              />
+              <meta name="keywords" content="About - Advocate Sukhjurist" />
+              <meta name="author" content="Your Name" />
+    
+              {/* SEO / Robots */}
+              <meta name="robots" content="index, follow" />
+              <meta name="googlebot" content="index, follow" />
+    
+              {/* Optional canonical URL */}
+              <link rel="canonical" href="https://www.example.com/" />
+            </Helmet>
+      <div className="banner ">
         <h1 className="banner-text">About Us</h1>
       </div>
 
-      <div className="container-fluid">
+      <div className="container-fluid overflow-x-hidden">
         <section className="about-me-section" id="about">
           <div className="about-container">
             <div className="about-left">
@@ -63,7 +81,7 @@ const About = () => {
             </div>
             <div className="about-right">
               <div className="image-wrapper">
-                <img src={aboutImage} alt="Advocate Suman Khatri" className="about-img" />
+                <img src={aboutImage} alt="Advocate Sukhjurist Khatri" className="about-img" />
                 <div className="image-border"></div>
               </div>
             </div>
