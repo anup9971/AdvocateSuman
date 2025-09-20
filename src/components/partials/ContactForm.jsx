@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "../../assests/style.css";
 import toast from 'react-hot-toast';
 
-const ContactForm = () => {
+const  ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",

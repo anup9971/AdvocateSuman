@@ -11,7 +11,7 @@ const AboutMe = () => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        padding: "40px 20px",
+        padding: "40px -30px",
         fontFamily: "Segoe UI, sans-serif",
         lineHeight: "1.8",
         color: "#1c1c1c",

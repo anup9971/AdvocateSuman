@@ -76,17 +76,56 @@ const About = () => {
 
       <div className="container-fluid overflow-x-hidden">
         <section className="about-me-section" id="about">
-          <div className="about-container">
-            <div className="about-left">
-              <AboutMe />
-            </div>
-            <div className="about-right">
-              <div className="image-wrapper">
-                <img src={aboutImage} alt="Advocate Sukhjurist Khatri" className="about-img" />
-                <div className="image-border"></div>
-              </div>
-            </div>
-          </div>
+  <div
+  className="about-container"
+  style={{
+    display: "flex",
+    flexWrap: "wrap",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: "30px",
+    padding: "10px",
+  }}
+>
+  {/* Left Side - Text */}
+  <div style={{ flex: "1 1 50%", }}>
+    <AboutMe/>
+  </div>
+
+  {/* Right Side - Image */}
+  <div
+    style={{
+      flex: "1 1 40%",
+      minWidth: "280px",
+      display: "flex",
+      justifyContent: "center",
+    }}
+  >
+    <div
+      style={{
+        border: "1px solid #561C24",
+        padding: "10px",
+        borderRadius: "8px",
+        maxWidth: "350px", // ✅ restrict max width
+        width: "100%",
+      }}
+    >
+      <img
+        src={aboutImage}
+        alt="Advocate Suman Khatri"
+        style={{
+          width: "100%", // ✅ responsive
+          height: "auto",
+          display: "block",
+          borderRadius: "8px",
+          objectFit: "cover",
+        }}
+      />
+    </div>
+  </div>
+</div>
+
+
         </section>
 
         {/* Extended Content Section */}
@@ -130,10 +169,10 @@ const About = () => {
             <div data-aos="fade-up">
               <h2 style={headingStyle}>Why Choose Us?</h2>
                 <p style={{ ...paragraphStyle, ...hoverEffect }}>
-               consistent record of successful and practical legal outcomes
+               Consistent record of successful and practical legal outcomes
                Personalised guidance and thoughtful legal strategies for each client
                Clear and transparent communication through every step of your case
-               Ethical practice and professionalism at the heart of our work
+               Ethical practice and professionalism at the heart of our work.
               </p>
             </div>
           </div>

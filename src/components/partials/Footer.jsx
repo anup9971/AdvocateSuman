@@ -10,7 +10,8 @@ const Footer = () => {
         <div className="footer-left">
           <h3>Chambers of Name</h3>
           <p>Advocates & Solicitors</p>
-          <p>Established 2019 · Serving Pan India</p>
+          <p> Serving Pan India</p>
+        
         </div>
 
         {/* Center Contact Section */}
@@ -26,21 +27,21 @@ const Footer = () => {
             <li>
               <a href="mailto:info@sumankhatri.in" aria-label="Email">
                 <FaEnvelope style={{ marginRight: '8px' }} />
-                info@name.in
+                info@sukhjurist.com
               </a>
             </li>
             <li>
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/in/sumankhatri12/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
               >
                 <FaLinkedin style={{ marginRight: '12px' }} />
-                LinkedIn
+              Sukh Jurist
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://www.instagram.com"
                 target="_blank"
@@ -50,7 +51,7 @@ const Footer = () => {
                 <FaInstagram style={{ marginRight: '12px' }} />
                 Instagram
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
 

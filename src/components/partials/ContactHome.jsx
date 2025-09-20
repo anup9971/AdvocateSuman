@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import phone from '../../assests/Phone.png';
-import instagram from '../../assests/instagram.png';
+
 import linkedin from '../../assests/linkedin.png';
-import twitter from '../../assests/x-logo.png';
+import email from '../../assests/emai2.png';
 import ContactForm from '../partials/ContactForm';
 
 const ContactHome = () => {
@@ -77,14 +77,14 @@ const ContactHome = () => {
               </h4>
               <ul className="list-unstyled" style={{ lineHeight: "1.8", color: "#333" }}>
                 <li>
-                  📍 1031, Mahipalpur, Vasant Kunj Bypass Road, Mahipalpur
+                  📍 Kh.no.1031/1, Mahipalpur, Vasant Kunj Bypass Road, Mahipalpur
                   Extension, New Delhi, Delhi 110037
                 </li>
               </ul>
               <p>
                 ✉️ <a href="mailto:Info@sukhjurist.com">Info@sukhjurist.com</a>
               </p>
-              <p>📞 <a href="tel:+919911077828">8800417772</a></p>
+              <p>📞 <a href="tel:+919911077828">+91 8800417772</a></p>
             </div>
           </Col>
         </Row>
@@ -101,9 +101,8 @@ const ContactHome = () => {
   <Row className="justify-content-center d-none d-md-flex mb-5">
     {[ 
       { name: 'Phone', icon: phone, link: 'tel:+918800417772', label: '+91 8800417772' },
-      { name: 'Instagram', icon: instagram, link: 'https://instagram.com', label: 'Instagram' },
-      { name: 'LinkedIn', icon: linkedin, link: 'https://linkedin.com', label: 'LinkedIn' },
-      { name: 'Twitter', icon: twitter, link: 'https://twitter.com', label: 'Twitter' },
+      { name: 'Email', icon: email, link: 'mailto:Info@sukhjurist.com', label: 'Email' },
+      { name: 'LinkedIn', icon: linkedin, link: 'https://www.linkedin.com/in/sumankhatri12/', label: 'LinkedIn' },
     ].map((item, idx) => (
       <Col key={idx} xs={6} md={3} className="contact-item text-center mb-3">
         <a
@@ -152,7 +151,7 @@ const ContactHome = () => {
     <Row className="justify-content-between mb-4">
       <Col xs={6} className="contact-item text-start">
         <a
-          href="https://instagram.com"
+          href="mailto:Info@sukhjurist.com"
           target="_blank"
           rel="noreferrer"
           className="social-link"
@@ -164,14 +163,14 @@ const ContactHome = () => {
             textDecorationColor: hoveredLink === 'Instagram' ? '#561C24' : 'transparent',
           }}
         >
-          <img src={instagram} width={50} height={50} alt="Instagram" />
-          <p style={styles.text}>Instagram</p>
+          <img src={email} width={50} height={50} alt="Instagram" />
+          <p style={styles.text}>Email</p>
         </a>
       </Col>
 
       <Col xs={6} className="contact-item text-end">
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/sumankhatri12/"
           target="_blank"
           rel="noreferrer"
           className="social-link"
@@ -190,7 +189,7 @@ const ContactHome = () => {
     </Row>
 
     {/* Twitter - bottom center */}
-    <Row className="justify-content-center">
+    {/* <Row className="justify-content-center">
       <Col xs="auto" className="contact-item text-center">
         <a
           href="https://twitter.com"
@@ -209,7 +208,7 @@ const ContactHome = () => {
           <p style={styles.text}>Twitter</p>
         </a>
       </Col>
-    </Row>
+    </Row> */}
   </div>
 </Container>
 
