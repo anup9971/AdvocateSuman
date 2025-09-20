@@ -28,17 +28,7 @@ function DisputeResolution() {
         </ul>
       </div>
 
-      {/* <div style={styles.sidebar}>
-        <h3 style={styles.sidebarHeading}>More Practice Areas</h3>
-        <ul style={styles.sidebarList}>
-          <li><Link to="/readmore/litigation" onClick={() => window.scrollTo(0, 0)}>Litigation</Link></li>
-<li><Link to="/readmore/corporate-advisory" onClick={() => window.scrollTo(0, 0)}>Corporate Advisory</Link></li>
-<li><Link to="/readmore/dispute-resolution" onClick={() => window.scrollTo(0, 0)}>Dispute Resolution</Link></li>
-<li><Link to="/readmore/competition" onClick={() => window.scrollTo(0, 0)}>Competition Law</Link></li>
-<li><Link to="/readmore/technology-media" onClick={() => window.scrollTo(0, 0)}>Technology & Media</Link></li>
 
-        </ul>
-      </div> */}
     </div>
   );
 }
@@ -83,12 +73,12 @@ const styles = {
   heading: {
     fontSize: "28px",
     marginBottom: "20px",
-    color: "#003168",
+    color: "#561c24",
   },
   subHeading: {
     fontSize: "22px",
     marginTop: "30px",
-    color: "#003168",
+    color: "#561c24",
   },
   paragraph: {
     marginBottom: "15px",
@@ -103,7 +93,7 @@ const styles = {
   sidebarHeading: {
     fontSize: "20px",
     marginBottom: "10px",
-    color: "#003168",
+    color: "#561c24",
   },
   sidebarList: {
     listStyleType: "none",

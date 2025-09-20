@@ -4,6 +4,7 @@ import AboutMe from './partials/AboutMe';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Helmet } from 'react-helmet-async';
+import ContactHome from './partials/ContactHome';
 
 const About = () => {
   useEffect(() => {
@@ -24,7 +25,7 @@ const About = () => {
   const headingStyle = {
     fontSize: '28px',
     fontWeight: '700',
-    color: '#003168',
+    color: '#561c24',
     marginBottom: '15px',
     position: 'relative',
   };
@@ -92,31 +93,54 @@ const About = () => {
         <section style={sectionStyle}>
           <div style={sectionWrapper}>
             <div data-aos="fade-up">
+              <h2 style={headingStyle}>About Us</h2>
+              <p style={{ ...paragraphStyle, ...hoverEffect }}>
+                Here, you get professionally qualified advocates with a strong foundation in civil and criminal law. Our practice is rooted in integrity, careful strategy, and practical solutions for every client.
+              </p>
+            </div>
+             <div data-aos="fade-up">
               <h2 style={headingStyle}>Our Philosophy</h2>
               <p style={{ ...paragraphStyle, ...hoverEffect }}>
-                Justice is at the core of everything we do. We believe every client deserves attentive representation and the best possible outcome, no matter how complex their matter may be. Our commitment is to treat each case with care, diligence, and integrity.
+               Justice is at the core of everything we do. We believe every client deserves attentive representation and the best possible outcome, no matter how complex their matter may be. Our commitment is to treat each case with care, diligence, and integrity.
               </p>
             </div>
 
             <div data-aos="fade-up">
               <h2 style={headingStyle}>Our Team</h2>
               <p style={{ ...paragraphStyle, ...hoverEffect }}>
-               Our firm brings together dedicated legal professionals with expertise spanning litigation, dispute resolution, regulatory and corporate advisory, and compliance matters. We are more than just lawyers—each team member serves as a trusted advisor, committed to the interests and well- being of our clients.
+             At <strong>SUKH JURIST</strong>, success is measured not just by victories in the courtroom but by the satisfaction, trust, and long-term relationship we build with our clients. <br />
+             Our firm brings together dedicated legal professionals with expertise spanning litigation, dispute resolution, regulatory and corporate advisory, and compliance matters. We are more than just lawyers; each team member serves as a trusted advisor, committed to the inherent principles of the firm. <br />
+             Our team is not only committed to excellence in the courtroom but also to building long-lasting trust through transparency, clarity, and consistent results.
               </p>
             </div>
 
             <div data-aos="fade-up">
+              <h2 style={headingStyle}>Our Vision</h2>
+                <p style={{ ...paragraphStyle, ...hoverEffect }}>
+            To be recognized as a law firm where justice meets expertise, and where every client feels assured that their case is in the hands of professionals who truly care.
+              </p>
+            </div>
+
+             <div data-aos="fade-up">
+              <h2 style={headingStyle}>Our Promise</h2>
+                <p style={{ ...paragraphStyle, ...hoverEffect }}>
+           With adv. <strong>SUMAN KHATRI</strong> and a dedicated team of legal minds, we stand ready to protect your rights, defend your interests, and guide you through even the most complex legal challenges. </p>
+            </div>
+
+            <div data-aos="fade-up">
               <h2 style={headingStyle}>Why Choose Us?</h2>
-              <ul style={listStyle}>
-                <li>✅ Consistent record of successful and practical legal outcomes</li>
-                <li>✅ Personalised guidance and thoughtful legal strategies for each client</li>
-                <li>✅ Clear and transparent communication through every step of your case</li>
-                <li>✅ Ethical practice and professionalism at the heart of our work</li>
-              </ul>
+                <p style={{ ...paragraphStyle, ...hoverEffect }}>
+               consistent record of successful and practical legal outcomes
+               Personalised guidance and thoughtful legal strategies for each client
+               Clear and transparent communication through every step of your case
+               Ethical practice and professionalism at the heart of our work
+              </p>
             </div>
           </div>
         </section>
       </div>
+
+      {/* <ContactHome/> */}
     </>
   );
 };

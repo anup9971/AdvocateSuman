@@ -49,28 +49,28 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="form-wrapper" style={{ marginLeft: "-40px" }}>
-      <div className="form-container">
+    <div className="form-wrapper" style={{ width:"100%" }}>
+      <div className="form-container" >
         <h2>Contact Us</h2>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Full Name</label>
-            <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
+            <input type="text" placeholder=' Enter Your Name ' id="name" name="name" value={formData.name} onChange={handleChange} required />
           </div>
 
           <div className="form-group">
             <label htmlFor="email">Email Address</label>
-            <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
+            <input type="email" id="email" placeholder=' Enter Your Email ' name="email" value={formData.email} onChange={handleChange} required />
           </div>
 
           <div className="form-group">
             <label htmlFor="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} />
+            <input type="tel" id="phone" name="phone" placeholder=' Enter Your Phone ' value={formData.phone} onChange={handleChange} />
           </div>
 
           <div className="form-group">
             <label htmlFor="message">Your Message</label>
-            <textarea id="message" name="message" value={formData.message} onChange={handleChange}  />
+            <textarea id="message" name="message" placeholder=' Enter Your Message ' value={formData.message} onChange={handleChange}  />
           </div>
 
           <button type="submit" className="bubble-button" disabled={loading}>

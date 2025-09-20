@@ -70,13 +70,13 @@ function Competition() {
           .heading {
             font-size: 30px;
             margin-bottom: 20px;
-            color: #003168;
+            color: #561c24;
           }
 
           .subheading {
             font-size: 24px;
             margin-bottom: 15px;
-            color: #003168;
+            color: #561c24;
           }
 
           .paragraph {
@@ -101,18 +101,18 @@ function Competition() {
             content: "✔";
             position: absolute;
             left: 0;
-            color: #0070c0;
+            color: #561c24;
           }
 
           .list li:hover {
-            color: #003168;
+            color: #561c24;
             cursor: pointer;
           }
 
           .sidebar h3 {
             font-size: 22px;
             margin-bottom: 15px;
-            color: #003168;
+            color: #561c24;
           }
 
           .sidebar ul {
@@ -138,12 +138,12 @@ function Competition() {
             content: "➡";
             position: absolute;
             left: 0;
-            color: #003168;
+            color: #561c24;
             transition: transform 0.3s ease;
           }
 
           .sidebar ul li a:hover {
-            color: #003168;
+            color: #561c24;
             font-weight: 500;
           }
 

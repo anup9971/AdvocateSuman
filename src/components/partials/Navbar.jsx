@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 // Assets
 import headerBg from "../../assests/header.png";
-import logo from "../../assests/sukhjurist llogo 2@2x.png";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -66,7 +66,7 @@ const Navbar = () => {
       <div style={styles.logoContainer}>
         <Link to="/" style={{ display: "inline-block" }}>
           <img
-            src={logo}
+            src="/images/logo.png"
             alt="Logo"
             style={{ ...styles.logo, height: isMobile ? "100px" : "120px" }}
           />

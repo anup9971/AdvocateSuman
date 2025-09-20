@@ -15,31 +15,81 @@ const ContactHome = () => {
   return (
     <div className="container-fluid">
       <section className="contact-section">
-        <div className="contact-row">
-          <div className="contact-col left">
-            <ContactForm />
-          </div>
+       <div className="container-fluid" style={{ padding: "40px 20px", background: "#f8f8f8", paddingTop:"40px", borderRadius:"10px", marginTop:"15px" }}>
+      <section className="contact-section">
 
-          <div className="contact-col right" style={{ marginLeft: '-20px' }}>
-            <h2>Office & Chambers</h2>
-            <ul className="address-list">
-              <li>
-                <span className="icon">📍</span>
-                1031, Mahipalpur , Vasant kunj Bypass, Road, Mahipalpur Extension, New Delhi, delhi, Delhi 110037
-              </li>
-           
-            </ul>
-            <p className="info">
-              <span className="icon">✉️</span> Emails:{" "}
-              <a href="mailto:Info@sukhjurist.com">Info@sukhjurist.com</a>
-            </p>
-            <p className="info">
-              <span className="icon">📞</span> Mob:{" "}
-              <a href="tel:+919911077828">8800417772</a>,{" "}
-              {/* <a href="tel:+919811177828">9811177828</a> */}
-            </p>
+        {/* WHY CHOOSE US */}
+        <div className="text-center mb-5">
+          <h2
+            style={{
+              fontSize: "1.8rem",
+              fontWeight: "700",
+              color: "#561C24",
+              marginBottom: "20px",
+            }}
+          >
+            Why Choose Us?
+          </h2>
+
+          <div
+            style={{
+              maxWidth: "800px",
+              margin: "0 auto",
+              textAlign: "left",
+              fontSize: "1rem",
+              lineHeight: "1.7",
+              color: "#333",
+            }}
+          >
+            <p>✔ Consistent record of successful and practical legal outcomes</p>
+            <p>✔ Personalised guidance and thoughtful legal strategies for each client</p>
+            <p>✔ Clear and transparent communication through every step of your case</p>
+            <p>✔ Ethical practice and professionalism at the heart of our work</p>
           </div>
         </div>
+
+        <hr style={{ margin: "40px 0" }} />
+     
+
+        {/* CONTACT + OFFICE SECTION */}
+        <Row className="justify-content-center">
+          {/* Contact Form */}
+          <Col md={6} className="mb-4">
+            <div
+            >
+              
+              <ContactForm />
+            </div>
+          </Col>
+
+          {/* Office Details */}
+          <Col md={6} className="mb-4">
+            <div
+              className="p-4"
+              style={{
+                borderRadius: "10px",
+                background: "#fff",
+                boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+              }}
+            >
+              <h4 className="mb-3" style={{ color: "#561C24" }}>
+                Office & Chambers
+              </h4>
+              <ul className="list-unstyled" style={{ lineHeight: "1.8", color: "#333" }}>
+                <li>
+                  📍 1031, Mahipalpur, Vasant Kunj Bypass Road, Mahipalpur
+                  Extension, New Delhi, Delhi 110037
+                </li>
+              </ul>
+              <p>
+                ✉️ <a href="mailto:Info@sukhjurist.com">Info@sukhjurist.com</a>
+              </p>
+              <p>📞 <a href="tel:+919911077828">8800417772</a></p>
+            </div>
+          </Col>
+        </Row>
+      </section>
+    </div>
 
         {/* Contact With Us Section */}
        

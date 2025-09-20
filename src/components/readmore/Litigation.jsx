@@ -44,12 +44,12 @@ function Litigation() {
     heading: {
       fontSize: isMobile ? "22px" : "28px",
       marginBottom: "20px",
-      color: "#003168",
+      color: "#561c24",
     },
     subHeading: {
       fontSize: isMobile ? "18px" : "22px",
       marginTop: "30px",
-      color: "#003168",
+      color: "#561c24",
     },
     paragraph: {
       marginBottom: "15px",
@@ -62,7 +62,7 @@ function Litigation() {
     sidebarHeading: {
       fontSize: "20px",
       marginBottom: "10px",
-      color: "#003168",
+      color: "#561c24",
     },
     sidebarList: {
       listStyleType: "none",
@@ -75,29 +75,19 @@ function Litigation() {
     <div style={styles.pageContainer}>
       <div style={styles.mainContent}>
         <img src={img} alt="Litigation Law Services" style={styles.heroImage} />
-        <h1 style={styles.heading}>Expert Litigation Services in Delhi</h1>
+        <h1 style={styles.heading} >Expert Litigation Services in Delhi</h1>
         <p style={styles.paragraph}>
-          Providing diligent representation in a wide range of civil and criminal disputes. Each case is handled with thorough preparation, clear communication, and a focus on the client’s interests both inside and outside the courtroom.
+         Providing diligent representation in a wide range of civil and criminal disputes. Each case is handled with thorough preparation, clear communication, and a focus on the client’s interests both inside and outside the courtroom.
         </p>
         <h2 style={styles.subHeading}>Why Choose Us?</h2>
         <ul style={styles.list}>
           <li>✅ Decades of courtroom experience</li>
-          <li>✅ Civil, criminal, and commercial litigation</li>
+          <li>✅Civil, criminal, and commercial litigation</li>
           <li>✅ Dedicated legal team for every case</li>
         </ul>
       </div>
 
-      {/* <div style={styles.sidebar}>
-        <h3 style={styles.sidebarHeading}>More Practice Areas</h3>
-        <ul style={styles.sidebarList}>
-         <li><Link to="/readmore/litigation" onClick={() => window.scrollTo(0, 0)}>Litigation</Link></li>
-<li><Link to="/readmore/corporate-advisory" onClick={() => window.scrollTo(0, 0)}>Corporate Advisory</Link></li>
-<li><Link to="/readmore/dispute-resolution" onClick={() => window.scrollTo(0, 0)}>Dispute Resolution</Link></li>
-<li><Link to="/readmore/competition" onClick={() => window.scrollTo(0, 0)}>Competition Law</Link></li>
-<li><Link to="/readmore/technology-media" onClick={() => window.scrollTo(0, 0)}>Technology & Media</Link></li>
-
-        </ul>
-      </div> */}
+ 
     </div>
   );
 }
