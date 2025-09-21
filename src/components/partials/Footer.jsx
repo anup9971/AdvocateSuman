@@ -1,18 +1,10 @@
-import React from 'react';
-import { FaPhoneAlt, FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import React from "react";
+import { FaPhoneAlt, FaEnvelope, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="full-footer">
       <div className="footer-inner">
-
-        {/* Left Section */}
-        <div className="footer-left">
-          <h3>Chambers of Name</h3>
-          <p>Advocates & Solicitors</p>
-          <p> Serving Pan India</p>
-        
-        </div>
 
         {/* Center Contact Section */}
         <div className="footer-center">
@@ -20,13 +12,13 @@ const Footer = () => {
           <ul>
             <li>
               <a href="tel:+918800417772" aria-label="Call">
-                <FaPhoneAlt style={{ marginRight: '8px' }} />
+                <FaPhoneAlt className="icon" />
                 +91 8800 417772
               </a>
             </li>
             <li>
-              <a href="mailto:info@sumankhatri.in" aria-label="Email">
-                <FaEnvelope style={{ marginRight: '8px' }} />
+              <a href="mailto:info@sukhjurist.com" aria-label="Email">
+                <FaEnvelope className="icon" />
                 info@sukhjurist.com
               </a>
             </li>
@@ -37,54 +29,99 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
               >
-                <FaLinkedin style={{ marginRight: '12px' }} />
-              Sukh Jurist
+                <FaLinkedin className="icon" />
+                Sukh Jurist
               </a>
             </li>
-            {/* <li>
-              <a
-                href="https://www.instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Instagram"
-              >
-                <FaInstagram style={{ marginRight: '12px' }} />
-                Instagram
-              </a>
-            </li> */}
           </ul>
         </div>
 
         {/* Right: Embedded Map */}
-        {/* <div className="footer-right">
+        <div className="footer-right">
           <iframe
-            title="Location Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.7179143871945!2d77.21565591508348!3d28.610143982423364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3b58d7b7d2f%3A0xa3d21810e07e2f1e!2sSaket%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1687881879734!5m2!1sen!2sin"
+            title="V Hotel The Grand Shoba Location"
+            src="https://maps.google.com/maps?q=Hotel%20The%20Grand%20Shoba%20Mahipalpur%20New%20Delhi&output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}
-            allowFullScreen=""
+            allowFullScreen
             loading="lazy"
-          ></iframe>
-        </div> */}
-       <div className="footer-right" style={{ width: '100%', height: '300px' }}>
-    <iframe
-      title="V Hotel The Grand Shoba Location"
-      src="https://maps.google.com/maps?q=Hotel%20The%20Grand%20Shoba%20Mahipalpur%20New%20Delhi&output=embed"
-      width="100%"
-      height="100%"
-      style={{ border: 0 }}
-      allowFullScreen
-      loading="lazy"
-    />
-  </div>
-
+          />
+        </div>
       </div>
 
       {/* Bottom Strip */}
       <div className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} Sukh Jurist. All rights reserved.</p>
       </div>
+
+      {/* Footer Styles */}
+      <style jsx>{`
+        .full-footer {
+          position: relative;
+          color: #fff;
+          padding: 40px 20px 10px;
+          z-index: 1;
+          overflow: hidden;
+        }
+
+        /* Background image with overlay */
+        .full-footer::before {
+          content: "";
+          position: absolute;
+          top: 0; left: 0; right: 0; bottom: 0;
+          background: url("/footer-bg.jpg") no-repeat center center/cover;
+          opacity: 0.4;   /* Dark overlay */
+          z-index: -1;
+        }
+
+        .footer-inner {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          gap: 20px;
+        }
+
+        .footer-center ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+        }
+
+        .footer-center li {
+          margin-bottom: 10px;
+        }
+
+        .footer-center a {
+          color: #fff;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+        }
+
+        .footer-center a:hover {
+          color: #f0c040;
+        }
+
+        .icon {
+          margin-right: 8px;
+        }
+
+        .footer-right {
+          flex: 1;
+          min-width: 300px;
+          height: 250px;
+        }
+
+        .footer-bottom {
+          text-align: center;
+          border-top: 1px solid rgba(255, 255, 255, 0.3);
+          margin-top: 20px;
+          padding-top: 10px;
+          font-size: 14px;
+          opacity: 0.8;
+        }
+      `}</style>
     </footer>
   );
 };
