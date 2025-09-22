@@ -95,7 +95,7 @@ const ContactHome = () => {
        
 
         <Container>
-  <h2 className="contact-heading text-center my-5">Contact With Us</h2>
+  <h2 className="contact-heading text-center my-5">Contact Us</h2>
 
   {/* ----------- Desktop View (md and above): single row ----------- */}
   <Row className="justify-content-center d-none d-md-flex mb-5">
