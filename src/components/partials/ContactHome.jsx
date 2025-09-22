@@ -104,7 +104,11 @@ const ContactHome = () => {
       boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
     }}
   >
-    <h4 className="mb-3" style={{ color: "#561C24", fontSize:"31px", textAlign:"center" }}>
+    <h4 className="mb-3"   style={{
+    color: "#561C24",
+    textAlign: "center",
+    fontSize: window.innerWidth <= 768 ? "25px" : "31px", // mobile vs desktop
+  }}>
       Office & Chambers
     </h4>
 

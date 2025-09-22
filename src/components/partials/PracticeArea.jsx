@@ -79,14 +79,34 @@ function PracticeArea() {
 
       {/* Bootstrap Modal */}
       <Modal show={show} onHide={handleClose} size="lg" centered>
-        <Modal.Header closeButton>
-          <Modal.Title className="text-center">
-  {selectedTitle}
-</Modal.Title>
+      <Modal.Header
+  closeButton
+  style={{
+    backgroundColor: "#561c24",
+    color: "white",
+    display: "flex",
+    justifyContent: "center",
+    position: "relative"
+  }}
+  closeVariant="white"
+>
+  <Modal.Title   style={{
+    margin: 0,
+    color: "white",
+    textAlign: "center",
+    maxWidth: "80%",
+    whiteSpace: "normal",
+    overflowWrap: "break-word",
+    position: window.innerWidth > 768 ? "absolute" : "static", // desktop: absolute, mobile: static
+    left: window.innerWidth > 768 ? "50%" : "auto",
+    transform: window.innerWidth > 768 ? "translateX(-50%)" : "none",
+  }}>
+    {selectedTitle}
+  </Modal.Title>
         </Modal.Header>
         <Modal.Body>{renderComponent(selectedTitle)}</Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button style={{backgroundColor:"#561c24"}} onClick={handleClose}>
             Close
           </Button>
         </Modal.Footer>
