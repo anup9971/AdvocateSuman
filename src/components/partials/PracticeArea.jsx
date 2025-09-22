@@ -21,12 +21,12 @@ import Competition from '../readmore/Comptetion';
 import TechnologyMedia from '../readmore/TechnologyMediaAndCommunication';
 
 const practiceAreas = [
-  { title: 'Litigation', image: img1 },
-  { title: 'Banking and Finance', image: img2 },
-  { title: 'Corporate Advisory & Regulatory Compliances', image: img3 },
-  { title: 'Dispute Resolution', image: img4 },
-  { title: 'Competition', image: img5 },
-  { title: 'Technology, Media and Communication', image: img6 },
+  { title: 'LITIGATION', image: img1 },
+  { title: 'BANKING AND FINANCE', image: img2 },
+  { title: 'CORPORATE ADVISORY & REGULATORY COMPLIANCES', image: img3 },
+  { title: 'DISPUTE RESOLUTION', image: img4 },
+  { title: 'COMPETITION', image: img5 },
+  { title: 'TECHNOLOGY, MEDIA AND COMMUNICATION', image: img6 },
 ];
 
 function PracticeArea() {
@@ -44,12 +44,12 @@ function PracticeArea() {
 
   const renderComponent = (title) => {
     const components = {
-      'Litigation': <Litigation />,
-      'Banking and Finance': <BankingAndFinance />,
-      'Corporate Advisory & Regulatory Compliances': <CorporateAdvisory />,
-      'Dispute Resolution': <DisputeResolution />,
-      'Competition': <Competition />,
-      'Technology, Media and Communication': <TechnologyMedia />,
+      'LITIGATION': <Litigation />,
+      'BANKING AND FINANCE': <BankingAndFinance />,
+      'CORPORATE ADVISORY & REGULATORY COMPLIANCES': <CorporateAdvisory />,
+      'DISPUTE RESOLUTION': <DisputeResolution />,
+      'COMPETITION': <Competition />,
+      'TECHNOLOGY, MEDIA AND COMMUNICATION': <TechnologyMedia />,
     };
     return components[title] || null;
   };
@@ -80,7 +80,9 @@ function PracticeArea() {
       {/* Bootstrap Modal */}
       <Modal show={show} onHide={handleClose} size="lg" centered>
         <Modal.Header closeButton>
-          <Modal.Title>{selectedTitle}</Modal.Title>
+          <Modal.Title className="text-center">
+  {selectedTitle}
+</Modal.Title>
         </Modal.Header>
         <Modal.Body>{renderComponent(selectedTitle)}</Modal.Body>
         <Modal.Footer>

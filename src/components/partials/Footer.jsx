@@ -40,7 +40,7 @@ const Footer = () => {
         <div className="footer-right">
           <iframe
             title="V Hotel The Grand Shoba Location"
-            src="https://maps.google.com/maps?q=Hotel%20The%20Grand%20Shoba%20Mahipalpur%20New%20Delhi&output=embed"
+            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Splendor Trade Tower C36F+786, Golf Course Ext Rd, Sector 65, Gurugram, Haryana 122101&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             width="100%"
             height="100%"
             style={{ border: 0 }}

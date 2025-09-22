@@ -41,6 +41,7 @@ function Litigation() {
       borderRadius: "8px",
       marginBottom: "20px",
     },
+    
     heading: {
       fontSize: isMobile ? "22px" : "28px",
       marginBottom: "20px",
@@ -54,11 +55,14 @@ function Litigation() {
     paragraph: {
       marginBottom: "15px",
     },
+   
     list: {
       marginTop: "10px",
       marginLeft: "20px",
       marginBottom: "20px",
+      listStyleType:"none"
     },
+  
     sidebarHeading: {
       fontSize: "20px",
       marginBottom: "10px",
@@ -80,10 +84,10 @@ function Litigation() {
          Providing diligent representation in a wide range of civil and criminal disputes. Each case is handled with thorough preparation, clear communication, and a focus on the client’s interests both inside and outside the courtroom.
         </p>
         <h2 style={styles.subHeading}>Why Choose Us?</h2>
-        <ul style={styles.list}>
-          <li>✅ Decades of courtroom experience</li>
-          <li>✅Civil, criminal, and commercial litigation</li>
-          <li>✅ Dedicated legal team for every case</li>
+        <ul style={styles.list} >
+          <li> <span style={{color:"#561c24", paddingRight:"5px"}} >✔</span>Decades of courtroom experience</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} >✔</span>Civil, criminal, and commercial litigation</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} >✔</span> Dedicated legal team for every case</li>
         </ul>
       </div>
 

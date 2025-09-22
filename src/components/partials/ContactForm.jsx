@@ -49,7 +49,8 @@ const  ContactForm = () => {
   };
 
   return (
-    <div className="form-wrapper" style={{ width:"100%" }}>
+    <>
+    {/* <div className="form-wrapper" style={{ width:"100%" }}>
       <div className="form-container" >
         <h2>Contact Us</h2>
         <form onSubmit={handleSubmit}>
@@ -82,7 +83,93 @@ const  ContactForm = () => {
           </button>
         </form>
       </div>
-    </div>
+    </div> */}
+    <div className="form-wrapper" style={{ width: "100%" }}>
+  <div className="form-container" >
+    <h2>Contact Us</h2>
+    <form onSubmit={handleSubmit} className="row g-3" sty>
+
+      {/* Full Name */}
+      <div className="col-md-6">
+        <div className="form-group">
+          <label htmlFor="name">Full Name</label>
+          <input
+            type="text"
+            placeholder=" Enter Your Name "
+            id="name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+            className="form-control small-input"
+          />
+        </div>
+      </div>
+
+      {/* Email Address */}
+      <div className="col-md-6">
+        <div className="form-group">
+          <label htmlFor="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            placeholder=" Enter Your Email "
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+            className="form-control small-input"
+          />
+        </div>
+      </div>
+
+      {/* Phone */}
+      <div className="col-12">
+        <div className="form-group">
+          <label htmlFor="phone">Phone Number</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder=" Enter Your Phone "
+            value={formData.phone}
+            onChange={handleChange}
+            className="form-control small-input"
+          />
+        </div>
+      </div>
+
+      {/* Message */}
+      <div className="col-12">
+        <div className="form-group">
+          <label htmlFor="message">Your Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder=" Enter Your Message "
+            value={formData.message}
+            onChange={handleChange}
+            className="form-control small-input"
+            rows="3"
+          />
+        </div>
+      </div>
+
+      {/* Submit Button */}
+      <div className="col-12">
+        <button type="submit" className="bubble-button" disabled={loading}>
+          <span>{loading ? "Sending..." : "Send Message"}</span>
+          <div className="bubbles">
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+          </div>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+    </>
   );
 };
 

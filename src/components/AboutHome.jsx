@@ -17,11 +17,11 @@ const AboutHome = () => {
           <div className="about-right">
             <div className="image-wrapper">
               <img
-                src={aboutImage}
+                src="/images/lady.png"
                 alt="Advocate Suman Khatri"
                 className="about-image"
               />
-              <div className="image-border"></div>
+              {/* <div className="image-border"></div> */}
             </div>
           </div>
 
@@ -80,7 +80,7 @@ const AboutHome = () => {
           }
 
           .about-image:hover {
-            transform: scale(1.08);
+            transform: scale(1);
             box-shadow: 0 8px 25px rgba(0,0,0,0.3);
           }
 

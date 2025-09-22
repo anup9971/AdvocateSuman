@@ -5,6 +5,7 @@ import phone from '../../assests/Phone.png';
 import linkedin from '../../assests/linkedin.png';
 import email from '../../assests/emai2.png';
 import ContactForm from '../partials/ContactForm';
+import loc from '../../assests/loc.png';
 
 const ContactHome = () => {
   const [hoveredLink, setHoveredLink] = useState(null);
@@ -63,7 +64,7 @@ const ContactHome = () => {
           </Col>
 
           {/* Office Details */}
-          <Col md={6} className="mb-4">
+          {/* <Col md={6} className="mb-4">
             <div
               className="p-4"
               style={{
@@ -72,21 +73,79 @@ const ContactHome = () => {
                 boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
               }}
             >
-              <h4 className="mb-3" style={{ color: "#561C24" }}>
+              <h4 className="mb-3" style={{ color: "#561C24", fontSize:"31px" }}>
                 Office & Chambers
               </h4>
               <ul className="list-unstyled" style={{ lineHeight: "1.8", color: "#333" }}>
                 <li>
-                  📍 Kh.no.1031/1, Mahipalpur, Vasant Kunj Bypass Road, Mahipalpur
-                  Extension, New Delhi, Delhi 110037
+                 <img src={loc}  style={{height:"30px", width:"30px"}} alt="" srcset="" /> Kh.no.1031/1, Mahipalpur, <br /> Vasant  Kunj Bypass Road,  <br /> Mahipalpur
+                            Extension, New Delhi, <br />
+                   Delhi 110037
                 </li>
+                  <li>
+                 <img src={loc}  style={{height:"30px", width:"30px"}} alt="" srcset="" /> 19/A Ground floor, Splandor Trade Tower, <br /> Golf Course Extention Road, <br /> Sec 65,Gurugram, Haryana
+                </li>
+                
               </ul>
               <p>
-                ✉️ <a href="mailto:Info@sukhjurist.com">Info@sukhjurist.com</a>
+                <img src={email}  style={{height:"30px", width:"30px"}} alt="" srcset="" /> <a style={{color:"#561C24 " , paddingLeft:"10px"}} href="mailto:Info@sukhjurist.com">Info@sukhjurist.com</a>
               </p>
-              <p>📞 <a href="tel:+919911077828">+91 8800417772</a></p>
+              <p><img src={phone}  style={{height:"30px", width:"30px"}} alt="" srcset="" /> <a  style={{color:"#561C24 ",paddingLeft:"10px"}} href="tel:+919911077828">+91 8800417772</a></p>
+              <p><img src={linkedin}  style={{height:"30px", width:"30px"}} alt="" srcset="" /> <a style={{color:"#561C24 ",paddingLeft:"10px"}} href="https://www.linkedin.com/in/sumankhatri12/">Sukh Juist</a></p>
             </div>
-          </Col>
+          </Col> */}
+
+          <Col md={6} className="mb-4">
+  <div
+    className="p-4"
+    style={{
+      borderRadius: "10px",
+      background: "#fff",
+      boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+    }}
+  >
+    <h4 className="mb-3" style={{ color: "#561C24", fontSize:"31px", textAlign:"center" }}>
+      Office & Chambers
+    </h4>
+
+    <ul className="list-unstyled" style={{ lineHeight: "1.8", color: "#333" }}>
+      <li style={{ display: "flex", alignItems: "flex-start", marginBottom: "10px" }}>
+        <img src={loc} style={{ height: "30px", width: "30px", marginRight: "10px" }} alt="" />
+        <span>
+          Kh.no.1031/1, Mahipalpur, <br /> 
+          Vasant Kunj Bypass Road, <br /> 
+          Mahipalpur Extension, New Delhi, <br /> 
+          Delhi 110037
+        </span>
+      </li>
+
+      <li style={{ display: "flex", alignItems: "flex-start", marginBottom: "10px" }}>
+        <img src={loc} style={{ height: "30px", width: "30px", marginRight: "10px" }} alt="" />
+        <span>
+          19/A Ground floor, Splandor Trade Tower, <br /> 
+          Golf Course Extention Road, <br /> 
+          Sec 65, Gurugram, Haryana
+        </span>
+      </li>
+    </ul>
+
+    <p style={{ display: "flex", alignItems: "center", gap: "15px" }}>
+      <img src={email} style={{height:"30px", width:"30px"}} alt="" /> 
+      <a style={{color:"#561C24"}} href="mailto:Info@sukhjurist.com">Info@sukhjurist.com</a>
+    </p>
+
+    <p style={{ display: "flex", alignItems: "center", gap: "15px" }}>
+      <img src={phone} style={{height:"30px", width:"30px"}} alt="" /> 
+      <a style={{color:"#561C24"}} href="tel:+919911077828">+91 8800417772</a>
+    </p>
+
+    <p style={{ display: "flex", alignItems: "center", gap: "15px" }}>
+      <img src={linkedin} style={{height:"30px", width:"30px"}} alt="" /> 
+      <a style={{color:"#561C24"}} href="https://www.linkedin.com/in/sumankhatri12/">Sukh Juist</a>
+    </p>
+  </div>
+</Col>
+
         </Row>
       </section>
     </div>
@@ -95,7 +154,7 @@ const ContactHome = () => {
        
 
         <Container>
-  <h2 className="contact-heading text-center my-5">Contact Us</h2>
+  <h2 className="contact-heading text-center my-5">Contect us</h2>
 
   {/* ----------- Desktop View (md and above): single row ----------- */}
   <Row className="justify-content-center d-none d-md-flex mb-5">

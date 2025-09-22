@@ -56,10 +56,10 @@ function TechnologyMediaAndCommunication() {
 
         <h2 className="subheading" style={styles.subHeading}>Our Services Include</h2>
         <ul style={styles.list}>
-          <li>✅ Data protection and privacy compliance</li>
-          <li>✅ IT contracts and software licensing</li>
-          <li>✅ Media & entertainment law advisory</li>
-          <li>✅ Online defamation & cybercrime resolution</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} >✔</span> Data protection and privacy compliance</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} >✔</span> IT contracts and software licensing</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} >✔</span> Media & entertainment law advisory</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} >✔</span> Online defamation & cybercrime resolution</li>
         </ul>
       </div>
     </div>
@@ -111,6 +111,7 @@ const styles = {
     marginTop: "10px",
     marginLeft: "20px",
     marginBottom: "20px",
+    listStyleType:"none"
   },
   sidebarHeading: {
     fontSize: "20px",

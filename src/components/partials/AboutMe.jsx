@@ -48,7 +48,7 @@ const AboutMe = () => {
       {/* Paragraphs */}
       <div style={{ maxWidth: "750px", padding: "0 15px" }}>
         <p>
- At <strong>SUKH JURIST</strong>, led by Advocate <strong>Suman Khatri</strong>, we believe that justice is not just about laws; it is about people. With a strong vision to deliver reliable, results-driven, and client-focused legal solutions, our firm has quickly established itself as a trusted name in the legal community. </p>
+ At <strong>SUKH JURIST</strong>, led by Advocate <strong className="text-capitalized">SUMAN KHATRI</strong>, we believe that justice is not just about laws; it is about people. With a strong vision to deliver reliable, results-driven, and client-focused legal solutions, our firm has quickly established itself as a trusted name in the legal community. </p>
 <p>
  Though we are a modern and progressive firm, we carry the weight of deep expertise and sharp legal acumen across a wide range of practice areas. <br/>
  Our dedication, professionalism, and commitment ensure that every client who walks through our doors feels empowered and supported. <br/>

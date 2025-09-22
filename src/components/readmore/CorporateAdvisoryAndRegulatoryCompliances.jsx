@@ -88,6 +88,7 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
           .list {
             margin-left: 20px;
             margin-bottom: 20px;
+            list-style-type: none;
           }
 
           .list li {
