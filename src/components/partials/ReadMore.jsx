@@ -8,9 +8,9 @@ const ReadMore = () => {
     <div style={styles.pageContainer}>
       {/* Main Content */}
       <div style={styles.mainContent}>
-        <img
-          src={img}
-          alt="Best Divorce Lawyer in Delhi"
+        <img 
+          src={img} loading="lazy"
+          alt="Advocate Sukhjurist"
           style={styles.heroImage}
         />
         <h1 style={styles.heading}>

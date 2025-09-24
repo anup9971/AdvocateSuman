@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import img from "../../assests/blog1.jpg"; // Replace with relevant image
+import img from "../../assests/new/blog1.webp"; // Replace with relevant image
 // import { Link } from "react-router-dom";
 
 function TechnologyMediaAndCommunication() {
@@ -40,9 +40,9 @@ function TechnologyMediaAndCommunication() {
   return (
     <div className="tech-container" style={styles.pageContainer}>
       <div className="main-content" style={styles.mainContent}>
-        <img
+        <img loading="lazy"
           src={img}
-          alt="Technology, Media & Communication"
+          alt="Advocate Sukhjurist"
           style={styles.heroImage}
         />
         <h1 className="heading" style={styles.heading}>
@@ -70,7 +70,7 @@ const styles = {
   pageContainer: {
     display: "flex",
     padding: "30px",
-    backgroundColor: "#f9f9f9",
+    backgroundColor: "#e8d8c4",
     fontFamily: "Arial, sans-serif",
     color: "#222",
   },

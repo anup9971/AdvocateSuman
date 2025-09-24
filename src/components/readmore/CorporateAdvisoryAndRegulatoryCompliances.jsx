@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assests/blog1.jpg";
+import img from "../../assests/new/blog1.webp";
 // import { Link } from "react-router-dom";
 
 function CorporateAdvisoryAndRegulatoryCompliances() {
@@ -11,7 +11,7 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
             display: flex;
             flex-wrap: wrap;
             padding: 40px;
-            background-color: #f9f9f9;
+            background-color: #e8d8c4;
             font-family: Arial, sans-serif;
             color: #222;
             animation: fadeIn 0.8s ease-in-out;
@@ -181,7 +181,7 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
 
       <div className="corporate-container">
         <div className="main-content">
-          <img src={img} alt="Corporate Advisory Services" className="hero-img" />
+          <img loading="lazy" src={img} alt="Corporate Advisory Services" className="hero-img" />
 
           <div className="section">
             <h1 className="heading">Corporate Advisory & Regulatory Compliances</h1>

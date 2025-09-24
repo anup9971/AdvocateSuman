@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImage from '../assests/female_advocate_image.png';
+import aboutImage from '../assests/new/female_advocate_image.webp';
 import AboutMe from './partials/AboutMe';
 
 const AboutHome = () => {
@@ -16,9 +16,10 @@ const AboutHome = () => {
           {/* Image Content (Right side) */}
           <div className="about-right">
             <div className="image-wrapper">
-              <img
-                src="/images/lady.png"
-                alt="Advocate Suman Khatri"
+              <img loading="lazy"
+              
+                src="/images/lady.webp"
+                alt="Advocate Sukhjurist"
                 className="about-image"
               />
               {/* <div className="image-border"></div> */}

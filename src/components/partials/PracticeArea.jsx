@@ -5,12 +5,12 @@ import React, { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import '../../../src/App.css';
 
-import img1 from '../../assests/img1.jpeg';
-import img2 from '../../assests/img2.jpeg';
-import img3 from '../../assests/img3.jpeg';
-import img4 from '../../assests/img4.jpg';
-import img5 from '../../assests/img5.jpeg';
-import img6 from '../../assests/img6.jpeg';
+import img1 from '../../assests/new/img1.webp';
+import img2 from '../../assests/new/img2.webp';
+import img3 from '../../assests/new/img3.webp';
+import img4 from '../../assests/new/img4.webp';
+import img5 from '../../assests/new/img5.webp';
+import img6 from '../../assests/new/img6.webp';
 
 // Read-more components
 import Litigation from '../readmore/Litigation';
@@ -65,7 +65,7 @@ function PracticeArea() {
             className="practice-card"
             onClick={() => handleShow(area.title)}
           >
-            <img src={area.image} alt={area.title} className="practice-image" />
+            <img  loading="lazy" src={area.image} alt="Advocate Sukhjurist" className="practice-image" />
             <div className="practice-overlay">
               <h3>{area.title}</h3>
               <button className="read-more-btn btn btn-light px-3 py-1"  style={{ width: 'auto',color:"#561c24" }}>
@@ -95,6 +95,7 @@ function PracticeArea() {
     color: "white",
     textAlign: "center",
     maxWidth: "80%",
+    fontSize:"18px",
     whiteSpace: "normal",
     overflowWrap: "break-word",
     position: window.innerWidth > 768 ? "absolute" : "static", // desktop: absolute, mobile: static
@@ -104,7 +105,7 @@ function PracticeArea() {
     {selectedTitle}
   </Modal.Title>
         </Modal.Header>
-        <Modal.Body>{renderComponent(selectedTitle)}</Modal.Body>
+        <Modal.Body style={{backgroundColor:"#e8d8c4"}} >{renderComponent(selectedTitle)}</Modal.Body>
         <Modal.Footer>
           <Button style={{backgroundColor:"#561c24"}} onClick={handleClose}>
             Close

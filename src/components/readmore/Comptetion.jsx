@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assests/blog1.jpg";
+import img from "../../assests/new/blog1.webp";
 // import { Link } from "react-router-dom";
 
 function Competition() {
@@ -11,7 +11,7 @@ function Competition() {
             display: flex;
             flex-wrap: wrap;
             padding: 40px;
-            background-color: #f9f9f9;
+            background-color: #e8d8c4;
             font-family: Arial, sans-serif;
             color: #222;
             animation: fadeIn 0.8s ease-in-out;
@@ -181,7 +181,7 @@ function Competition() {
 
       <div className="banking-container">
         <div className="main-content">
-          <img src={img} alt="Competition Law Services" className="hero-img" />
+          <img  loading="lazy" src={img} alt="Advocate Sukhjurist" className="hero-img" />
 
           <div className="section">
             <h1 className="heading">Competition Law Experts in Delhi</h1>

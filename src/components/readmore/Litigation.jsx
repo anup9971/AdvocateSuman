@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import img from "../../assests/blog1.jpg";
+import img from "../../assests/new/blog1.webp";
 // import { Link } from "react-router-dom";
 
 function Litigation() {
@@ -16,7 +16,7 @@ function Litigation() {
       display: "flex",
       flexDirection: isMobile ? "column" : "row",
       padding: isMobile ? "15px" : "30px",
-      backgroundColor: "#f9f9f9",
+      backgroundColor: "#e8d8c4",
       fontFamily: "Arial, sans-serif",
       color: "#222",
     },
@@ -78,7 +78,7 @@ function Litigation() {
   return (
     <div style={styles.pageContainer}>
       <div style={styles.mainContent}>
-        <img src={img} alt="Litigation Law Services" style={styles.heroImage} />
+        <img src={img} loading="lazy" alt="Advocate Sukhjurist" style={styles.heroImage} />
         <h1 style={styles.heading} >Expert Litigation Services in Delhi</h1>
         <p style={styles.paragraph}>
          Providing diligent representation in a wide range of civil and criminal disputes. Each case is handled with thorough preparation, clear communication, and a focus on the client’s interests both inside and outside the courtroom.

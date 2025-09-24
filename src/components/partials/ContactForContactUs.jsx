@@ -52,7 +52,7 @@ const ContactForContactUs = () => {
           <h2 className="contact-heading text-center my-5">Contact With Us</h2>
           <Row className="text-center justify-content-center">
             <Col xs={12} md={4} className="mb-4 contact-item">
-              <img src={phone} width={50} height={50} alt="Phone" />
+              <img src={phone}  loading="lazy" width={50} height={50} alt="Contact us" />
               <p className="contact-text">+91 1234567890</p>
             </Col>
 
@@ -73,7 +73,7 @@ const ContactForContactUs = () => {
                   onMouseEnter={() => handleMouseEnter(item.name)}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <img src={item.icon} width={50} height={50} alt={item.name} />
+                  <img  loading="lazy" src={item.icon}  width={50} height={50} alt='Contact us' />
                   <p style={styles.text}>{item.name}</p>
                 </a>
               </Col>

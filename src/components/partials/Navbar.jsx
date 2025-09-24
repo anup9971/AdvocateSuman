@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 // Assets
-import headerBg from "../../assests/header.png";
+import headerBg from "../../assests/new/header.webp";
 
 
 const Navbar = () => {
@@ -66,8 +66,8 @@ const Navbar = () => {
       <div style={styles.logoContainer}>
         <Link to="/" style={{ display: "inline-block" }}>
           <img
-            src="/images/logo.png"
-            alt="Logo"
+            src="/images/logo1.webp" loading="lazy"
+            alt="Advocate Sukhjurist"
             style={{ ...styles.logo, height: isMobile ? "100px" : "120px" }}
           />
         </Link>

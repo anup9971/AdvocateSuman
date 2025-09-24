@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import aboutImage from '../assests/hero.png';
+import aboutImage from '../assests/new/lady.webp';
 import AboutMe from './partials/AboutMe';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Helmet } from 'react-helmet-async';
-import ContactHome from './partials/ContactHome';
+
 
 const About = () => {
   useEffect(() => {
@@ -71,7 +71,7 @@ const About = () => {
               <link rel="canonical" href="https://www.example.com/" />
             </Helmet>
       <div className="banner ">
-        <h1 className="banner-text">About Us</h1>
+        <h1 className="banner-text" style={{color:"#561c24"}}>About Us</h1>
       </div>
 
       <div className="container-fluid overflow-x-hidden">
@@ -110,7 +110,7 @@ const About = () => {
         width: "100%",
       }}
     >
-      <img
+      <img loading="lazy"
         src={aboutImage}
         alt="Advocate Suman Khatri"
         style={{

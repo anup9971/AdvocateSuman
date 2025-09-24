@@ -154,7 +154,7 @@ body, html, #root {
 /* Hero Section */
 
 .hero-section {
-  background-image: url('./assests/herobg.jpg');
+  background-image: url('./assests/new/herobg.webp');
   /* background-color: #AC9362; */
   /* background-color: #E8D8C4; */
   /* background-color: #C7B7A3; */
@@ -653,7 +653,7 @@ body, html, #root {
 .full-footer {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
- background-image: url('./assests/Footer.png');
+ background-image: url('./assests/new/Footer.webp');
  background-repeat: no-repeat;
  background-size: cover; 
   color: white;

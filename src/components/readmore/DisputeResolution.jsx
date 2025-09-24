@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assests/blog1.jpg"; // Replace with actual image if different
+import img from "../../assests/new/blog1.webp"; // Replace with actual image if different
 // import { Link } from "react-router-dom";
 
 function DisputeResolution() {
@@ -7,8 +7,8 @@ function DisputeResolution() {
     <div style={styles.pageContainer}>
       <div style={styles.mainContent}>
         <img
-          src={img}
-          alt="Dispute Resolution Services"
+          src={img} loading="lazy"
+          alt="Advocate Sukhjurist"
           style={styles.heroImage}
         />
         <h1 style={styles.heading}>
@@ -27,7 +27,7 @@ function DisputeResolution() {
           <li><span style={{color:"#561c24", paddingRight:"5px"}} >✔</span> Sector-specific dispute handling (real estate, banking, etc.)</li>
         </ul>
       </div>
-
+f9
 
     </div>
   );
@@ -39,7 +39,7 @@ const styles = {
   justifyContent: "center",      // Center horizontally
   alignItems: "center",          // Center vertically (optional)
   padding: "20px",
-  backgroundColor: "#f9f9f9",
+  backgroundColor: "#e8d8c4",
   fontFamily: "Arial, sans-serif",
   color: "#222",
   flexWrap: "wrap",

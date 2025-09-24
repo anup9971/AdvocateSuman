@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import phone from '../../assests/Phone.png';
 
 import linkedin from '../../assests/linkedin.png';
-import email from '../../assests/emai2.png';
+import email from '../../assests/new/emial.webp';
 import ContactForm from '../partials/ContactForm';
 import loc from '../../assests/loc.png';
 
@@ -63,37 +63,6 @@ const ContactHome = () => {
             </div>
           </Col>
 
-          {/* Office Details */}
-          {/* <Col md={6} className="mb-4">
-            <div
-              className="p-4"
-              style={{
-                borderRadius: "10px",
-                background: "#fff",
-                boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-              }}
-            >
-              <h4 className="mb-3" style={{ color: "#561C24", fontSize:"31px" }}>
-                Office & Chambers
-              </h4>
-              <ul className="list-unstyled" style={{ lineHeight: "1.8", color: "#333" }}>
-                <li>
-                 <img src={loc}  style={{height:"30px", width:"30px"}} alt="" srcset="" /> Kh.no.1031/1, Mahipalpur, <br /> Vasant  Kunj Bypass Road,  <br /> Mahipalpur
-                            Extension, New Delhi, <br />
-                   Delhi 110037
-                </li>
-                  <li>
-                 <img src={loc}  style={{height:"30px", width:"30px"}} alt="" srcset="" /> 19/A Ground floor, Splandor Trade Tower, <br /> Golf Course Extention Road, <br /> Sec 65,Gurugram, Haryana
-                </li>
-                
-              </ul>
-              <p>
-                <img src={email}  style={{height:"30px", width:"30px"}} alt="" srcset="" /> <a style={{color:"#561C24 " , paddingLeft:"10px"}} href="mailto:Info@sukhjurist.com">Info@sukhjurist.com</a>
-              </p>
-              <p><img src={phone}  style={{height:"30px", width:"30px"}} alt="" srcset="" /> <a  style={{color:"#561C24 ",paddingLeft:"10px"}} href="tel:+919911077828">+91 8800417772</a></p>
-              <p><img src={linkedin}  style={{height:"30px", width:"30px"}} alt="" srcset="" /> <a style={{color:"#561C24 ",paddingLeft:"10px"}} href="https://www.linkedin.com/in/sumankhatri12/">Sukh Juist</a></p>
-            </div>
-          </Col> */}
 
           <Col md={6} className="mb-4">
   <div
@@ -114,7 +83,7 @@ const ContactHome = () => {
 
     <ul className="list-unstyled" style={{ lineHeight: "1.8", color: "#333" }}>
       <li style={{ display: "flex", alignItems: "flex-start", marginBottom: "10px" }}>
-        <img src={loc} style={{ height: "30px", width: "30px", marginRight: "10px" }} alt="" />
+        <img loading="lazy" src={loc} style={{ height: "30px", width: "30px", marginRight: "10px" }} alt="Contact us" />
         <span>
           Kh.no.1031/1, Mahipalpur, <br /> 
           Vasant Kunj Bypass Road, <br /> 
@@ -124,7 +93,7 @@ const ContactHome = () => {
       </li>
 
       <li style={{ display: "flex", alignItems: "flex-start", marginBottom: "10px" }}>
-        <img src={loc} style={{ height: "30px", width: "30px", marginRight: "10px" }} alt="" />
+        <img loading="lazy" src={loc} style={{ height: "30px", width: "30px", marginRight: "10px" }} alt="Contact us" />
         <span>
           19/A Ground floor, Splandor Trade Tower, <br /> 
           Golf Course Extention Road, <br /> 
@@ -134,17 +103,17 @@ const ContactHome = () => {
     </ul>
 
     <p style={{ display: "flex", alignItems: "center", gap: "15px" }}>
-      <img src={email} style={{height:"30px", width:"30px"}} alt="" /> 
+      <img  loading="lazy" src={email} style={{height:"30px", width:"30px"}} alt="Contact us" /> 
       <a style={{color:"#561C24"}} href="mailto:Info@sukhjurist.com">Info@sukhjurist.com</a>
     </p>
 
     <p style={{ display: "flex", alignItems: "center", gap: "15px" }}>
-      <img src={phone} style={{height:"30px", width:"30px"}} alt="" /> 
+      <img loading="lazy" src={phone} style={{height:"30px", width:"30px"}} alt="Contact us" /> 
       <a style={{color:"#561C24"}} href="tel:+919911077828">+91 8800417772</a>
     </p>
 
     <p style={{ display: "flex", alignItems: "center", gap: "15px" }}>
-      <img src={linkedin} style={{height:"30px", width:"30px"}} alt="" /> 
+      <img  loading="lazy"src={linkedin} style={{height:"30px", width:"30px"}} alt="Contact us" /> 
       <a style={{color:"#561C24"}} href="https://www.linkedin.com/in/sumankhatri12/">Sukh Juist</a>
     </p>
   </div>
@@ -158,7 +127,7 @@ const ContactHome = () => {
        
 
         <Container>
-  <h2 className="contact-heading text-center my-5">Contect us</h2>
+  <h2 className="contact-heading text-center my-5">Contect with Us</h2>
 
   {/* ----------- Desktop View (md and above): single row ----------- */}
   <Row className="justify-content-center d-none d-md-flex mb-5">
@@ -181,7 +150,7 @@ const ContactHome = () => {
             textDecorationColor: hoveredLink === item.name ? '#561C24' : 'transparent',
           }}
         >
-          <img src={item.icon} width={50} height={50} alt={item.name} />
+          <img  loading="lazy" src={item.icon} width={50} height={50} alt="Contact us" />
           <p style={styles.text}>{item.label}</p>
         </a>
       </Col>
@@ -204,7 +173,7 @@ const ContactHome = () => {
             textDecorationColor: hoveredLink === 'Phone' ? '#561C24' : 'transparent',
           }}
         >
-          <img src={phone} width={50} height={50} alt="Phone" />
+          <img loading="lazy" src={phone} width={50} height={50} alt="Contact us" />
           <p style={styles.text}>+91 8800417772</p>
         </a>
       </Col>
@@ -226,7 +195,7 @@ const ContactHome = () => {
             textDecorationColor: hoveredLink === 'Instagram' ? '#561C24' : 'transparent',
           }}
         >
-          <img src={email} width={50} height={50} alt="Instagram" />
+          <img loading="lazy" src={email} width={40} height={40} alt="Contact us" />
           <p style={styles.text}>Email</p>
         </a>
       </Col>
@@ -245,33 +214,12 @@ const ContactHome = () => {
             textDecorationColor: hoveredLink === 'LinkedIn' ? '#561C24' : 'transparent',
           }}
         >
-          <img src={linkedin} width={50} height={50} alt="LinkedIn" />
+          <img loading="lazy" src={linkedin} width={50} height={50} alt="Contact us" />
           <p style={styles.text}>LinkedIn</p>
         </a>
       </Col>
     </Row>
 
-    {/* Twitter - bottom center */}
-    {/* <Row className="justify-content-center">
-      <Col xs="auto" className="contact-item text-center">
-        <a
-          href="https://twitter.com"
-          target="_blank"
-          rel="noreferrer"
-          className="social-link"
-          onMouseEnter={() => handleMouseEnter('Twitter')}
-          onMouseLeave={handleMouseLeave}
-          style={{
-            ...styles.link,
-            textDecoration: hoveredLink === 'Twitter' ? 'underline' : 'none',
-            textDecorationColor: hoveredLink === 'Twitter' ? '#561C24' : 'transparent',
-          }}
-        >
-          <img src={twitter} width={50} height={50} alt="Twitter" />
-          <p style={styles.text}>Twitter</p>
-        </a>
-      </Col>
-    </Row> */}
   </div>
 </Container>
 
