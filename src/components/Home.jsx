@@ -21,7 +21,7 @@ export default function Home() {
   <meta name="keywords" content="Advocate Sukhjurist  " />
 
 
-  <link rel="canonical" href="https://www.vhotelthegrandshoba.com/" />
+  <link rel="canonical" href="https://www.sukhjurist.com/" />
 
 
   <meta name="robots" content="index, follow" />

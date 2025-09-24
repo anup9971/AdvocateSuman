@@ -68,7 +68,7 @@ const About = () => {
               <meta name="googlebot" content="index, follow" />
     
               {/* Optional canonical URL */}
-              <link rel="canonical" href="https://www.example.com/" />
+              <link rel="canonical" href="https://www.sukhjurist.com/about" />
             </Helmet>
       <div className="banner ">
         <h1 className="banner-text" style={{color:"#561c24"}}>About Us</h1>

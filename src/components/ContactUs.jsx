@@ -20,7 +20,7 @@ const     ContactUsHome = () => {
                <meta name="googlebot" content="index, follow" />
      
                {/* Optional canonical URL */}
-               <link rel="canonical" href="https://www.example.com/" />
+               <link rel="canonical" href="https://www.sukhjurist.com/contact" />
              </Helmet>
     <Banner/>
    <ContactHome/>
