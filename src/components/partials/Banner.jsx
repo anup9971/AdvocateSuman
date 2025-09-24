@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="banner">
       {/* <div className="query-tab">QUERY</div> */}
-      <h1 className="banner-text" style={{color:"#561c24"}}>Contact Us</h1>
+      <h1 className="banner-text" >Contact Us</h1>
     </div>
   );
 };

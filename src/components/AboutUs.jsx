@@ -71,7 +71,7 @@ const About = () => {
               <link rel="canonical" href="https://www.sukhjurist.com/about" />
             </Helmet>
       <div className="banner ">
-        <h1 className="banner-text" style={{color:"#561c24"}}>About Us</h1>
+        <h1 className="banner-text" >About Us</h1>
       </div>
 
       <div className="container-fluid overflow-x-hidden">
