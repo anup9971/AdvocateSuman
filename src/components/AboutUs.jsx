@@ -103,7 +103,7 @@ const About = () => {
   >
     <div
       style={{
-        border: "1px solid #561C24",
+        // border: "1px solid #561C24",
         padding: "10px",
         borderRadius: "8px",
         maxWidth: "350px", // ✅ restrict max width

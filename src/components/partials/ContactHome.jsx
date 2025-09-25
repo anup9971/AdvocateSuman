@@ -95,9 +95,9 @@ const ContactHome = () => {
       <li style={{ display: "flex", alignItems: "flex-start", marginBottom: "10px" }}>
         <img loading="lazy" src={loc} style={{ height: "30px", width: "30px", marginRight: "10px" }} alt="Contact us" />
         <span>
-          19/A Ground floor, Splandor Trade Tower, <br /> 
-          Golf Course Extention Road, <br /> 
-          Sec 65, Gurugram, Haryana
+          Splendor Trade Tower, <br /> 
+          C36F+786, Golf Course Extension Rd, <br /> 
+          Sec 65, Gurugram, Haryana 122101
         </span>
       </li>
     </ul>
