@@ -114,7 +114,7 @@ const ContactHome = () => {
 
     <p style={{ display: "flex", alignItems: "center", gap: "15px" }}>
       <img  loading="lazy"src={linkedin} style={{height:"30px", width:"30px"}} alt="Contact us" /> 
-      <a style={{color:"#561C24"}} href="https://www.linkedin.com/in/sumankhatri12/">Sukh Juist</a>
+      <a style={{color:"#561C24"}} href="https://www.linkedin.com/in/sumankhatri12/">Sukh Jurist</a>
     </p>
   </div>
 </Col>
@@ -127,7 +127,7 @@ const ContactHome = () => {
        
 
         <Container>
-  <h2 className="contact-heading text-center my-5">Contect with Us</h2>
+  <h2 className="contact-heading text-center my-5">Connect with Us</h2>
 
   {/* ----------- Desktop View (md and above): single row ----------- */}
   <Row className="justify-content-center d-none d-md-flex mb-5">
