@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import phone from '../../assests/Phone.png';
 
 import linkedin from '../../assests/linkedin.png';
-import email from '../../assests/new/emial.webp';
+import email from '../../assests/new/mail.png';
 import ContactForm from '../partials/ContactForm';
 import loc from '../../assests/loc.png';
 
@@ -83,7 +83,7 @@ const ContactHome = () => {
 
     <ul className="list-unstyled" style={{ lineHeight: "1.8", color: "#333" }}>
       <li style={{ display: "flex", alignItems: "flex-start", marginBottom: "10px" }}>
-        <img loading="lazy" src={loc} style={{ height: "30px", width: "30px", marginRight: "10px" }} alt="Contact us" />
+        <img loading="lazy" src={loc} style={{ height: "25px", width: "30px", marginRight: "10px" }} alt="Contact us" />
         <span>
           Kh.no.1031/1, Mahipalpur, <br /> 
           Vasant Kunj Bypass Road, <br /> 
@@ -93,7 +93,7 @@ const ContactHome = () => {
       </li>
 
       <li style={{ display: "flex", alignItems: "flex-start", marginBottom: "10px" }}>
-        <img loading="lazy" src={loc} style={{ height: "30px", width: "30px", marginRight: "10px" }} alt="Contact us" />
+        <img loading="lazy" src={loc} style={{ height: "25px", width: "30px", marginRight: "10px" }} alt="Contact us" />
         <span>
           Splendor Trade Tower, <br /> 
           C36F+786, Golf Course Extension Rd, <br /> 
@@ -103,17 +103,17 @@ const ContactHome = () => {
     </ul>
 
     <p style={{ display: "flex", alignItems: "center", gap: "15px" }}>
-      <img  loading="lazy" src={email} style={{height:"30px", width:"30px"}} alt="Contact us" /> 
+      <img  loading="lazy" src={email} style={{height:"25px", width:"30px"}} alt="Contact us" /> 
       <a style={{color:"#561C24"}} href="mailto:Info@sukhjurist.com">Info@sukhjurist.com</a>
     </p>
 
     <p style={{ display: "flex", alignItems: "center", gap: "15px" }}>
-      <img loading="lazy" src={phone} style={{height:"30px", width:"30px"}} alt="Contact us" /> 
+      <img loading="lazy" src={phone} style={{height:"25px", width:"30px"}} alt="Contact us" /> 
       <a style={{color:"#561C24"}} href="tel:+919911077828">+91 8800417772</a>
     </p>
 
     <p style={{ display: "flex", alignItems: "center", gap: "15px" }}>
-      <img  loading="lazy"src={linkedin} style={{height:"30px", width:"30px"}} alt="Contact us" /> 
+      <img  loading="lazy"src={linkedin} style={{height:"28px", width:"30px"}} alt="Contact us" /> 
       <a style={{color:"#561C24"}} href="https://www.linkedin.com/in/sumankhatri12/">Sukh Jurist</a>
     </p>
   </div>
@@ -150,7 +150,7 @@ const ContactHome = () => {
             textDecorationColor: hoveredLink === item.name ? '#561C24' : 'transparent',
           }}
         >
-          <img  loading="lazy" src={item.icon} width={50} height={50} alt="Contact us" />
+          <img  loading="lazy" src={item.icon} width={50} height={43} alt="Contact us" />
           <p style={styles.text}>{item.label}</p>
         </a>
       </Col>
