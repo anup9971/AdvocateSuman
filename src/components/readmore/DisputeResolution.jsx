@@ -1,6 +1,6 @@
 import React from "react";
-import img from "../../assests/new/blog1.webp"; // Replace with actual image if different
-// import { Link } from "react-router-dom";
+import img from "../../assests/new/blog1.webp"; 
+import tick from "../../assests/new/tick .png"; 
 
 function DisputeResolution() {
   return (
@@ -22,12 +22,12 @@ function DisputeResolution() {
 
         <h2 style={styles.subHeading}>What We Offer</h2>
         <ul style={styles.list}>
-          <li><span style={{color:"#561c24", paddingRight:"5px"}} >✔</span> Arbitration, mediation, and conciliation expertise</li>
-          <li><span style={{color:"#561c24", paddingRight:"5px"}} >✔</span> Pre-litigation strategies for faster outcomes</li>
-          <li><span style={{color:"#561c24", paddingRight:"5px"}} >✔</span> Sector-specific dispute handling (real estate, banking, etc.)</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} > <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span> Arbitration, mediation, and conciliation expertise</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} > <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span> Pre-litigation strategies for faster outcomes</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} > <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span> Sector-specific dispute handling (real estate, banking, etc.)</li>
         </ul>
       </div>
-f9
+
 
     </div>
   );

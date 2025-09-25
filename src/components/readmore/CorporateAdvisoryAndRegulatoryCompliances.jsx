@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../../assests/new/blog1.webp";
+import tick from "../../assests/new/tick .png";
 // import { Link } from "react-router-dom";
 
 function CorporateAdvisoryAndRegulatoryCompliances() {
@@ -98,12 +99,12 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
             transition: color 0.3s ease;
           }
 
-          .list li::before {
-            content: "✔";
-            position: absolute;
-            left: 0;
-            color: #561c24;
-          }
+          // .list li::before {
+          //   content: "✔";
+          //   position: absolute;
+          //   left: 0;
+          //   color: #561c24;
+          // }
 
           .list li:hover {
             color: #561c24;
@@ -202,11 +203,11 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
               smooth business operations with full legal clarity.
             </p>
             <ul className="list">
-              <li>Business incorporation, mergers & acquisitions</li>
-              <li>Drafting shareholder agreements and board resolutions</li>
-              <li>Annual compliance under the Companies Act</li>
-              <li>FEMA, FDI, and RBI-related advisory</li>
-              <li>Corporate restructuring and closure assistance</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Business incorporation, mergers & acquisitions</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Drafting shareholder agreements and board resolutions</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Annual compliance under the Companies Act</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />FEMA, FDI, and RBI-related advisory</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Corporate restructuring and closure assistance</li>
             </ul>
           </div>
 
@@ -215,11 +216,11 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
           <div className="section">
             <h2 className="subheading">Our Core Corporate Services</h2>
             <ul className="list">
-              <li>Contract Drafting & Negotiation</li>
-              <li>SEBI & Stock Exchange Regulations</li>
-              <li>Foreign Direct Investment (FDI) Compliance</li>
-              <li>Director & Shareholder Legal Advisory</li>
-              <li>Legal Entity Restructuring & Exit Strategies</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Contract Drafting & Negotiation</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />SEBI & Stock Exchange Regulations</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Foreign Direct Investment (FDI) Compliance</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Director & Shareholder Legal Advisory</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Legal Entity Restructuring & Exit Strategies</li>
             </ul>
           </div>
 

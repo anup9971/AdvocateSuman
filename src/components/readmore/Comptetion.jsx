@@ -1,6 +1,7 @@
 import React from "react";
 import img from "../../assests/new/blog1.webp";
-// import { Link } from "react-router-dom";
+import tick from "../../assests/new/tick .png";
+
 
 function Competition() {
   return (
@@ -98,12 +99,12 @@ function Competition() {
             transition: color 0.3s ease;
           }
 
-          .list li::before {
-            content: "✔";
-            position: absolute;
-            left: 0;
-            color: #561c24;
-          }
+          // .list li::before {
+          //   content: "✔";
+          //   position: absolute;
+          //   left: 0;
+          //   color: #561c24;
+          // }
 
           .list li:hover {
             color: #561c24;
@@ -200,11 +201,11 @@ function Competition() {
           <div className="section">
             <h2 className="subheading">Our Services Include:</h2>
             <ul className="list">
-              <li>Competition compliance audits</li>
-              <li>Handling CCI investigations & litigation</li>
-              <li>Advising on anti-competitive agreements & dominance</li>
-              <li>Merger filings & approvals</li>
-              <li>Risk assessment of strategic collaborations</li>
+              <li><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Competition compliance audits</li>
+              <li><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Handling CCI investigations & litigation</li>
+              <li><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Advising on anti-competitive agreements & dominance</li>
+              <li><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Merger filings & approvals</li>
+              <li><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Risk assessment of strategic collaborations</li>
             </ul>
           </div>
 
@@ -218,17 +219,7 @@ function Competition() {
           </div>
         </div>
 
-        {/* <div className="sidebar">
-          <h3>More Practice Areas</h3>
-          <ul>
-            <li><Link to="/readmore/litigation" onClick={() => window.scrollTo(0, 0)}>Litigation</Link></li>
-<li><Link to="/readmore/corporate-advisory" onClick={() => window.scrollTo(0, 0)}>Corporate Advisory</Link></li>
-<li><Link to="/readmore/dispute-resolution" onClick={() => window.scrollTo(0, 0)}>Dispute Resolution</Link></li>
-<li><Link to="/readmore/competition" onClick={() => window.scrollTo(0, 0)}>Competition Law</Link></li>
-<li><Link to="/readmore/technology-media" onClick={() => window.scrollTo(0, 0)}>Technology & Media</Link></li>
-
-          </ul>
-        </div> */}
+     
       </div>
     </>
   );

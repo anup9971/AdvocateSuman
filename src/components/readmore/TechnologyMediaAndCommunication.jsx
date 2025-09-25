@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
-import img from "../../assests/new/blog1.webp"; // Replace with relevant image
-// import { Link } from "react-router-dom";
-
+import img from "../../assests/new/blog1.webp";
+import tick from "../../assests/new/tick .png";
 function TechnologyMediaAndCommunication() {
   useEffect(() => {
     const style = document.createElement("style");
@@ -56,10 +55,10 @@ function TechnologyMediaAndCommunication() {
 
         <h2 className="subheading" style={styles.subHeading}>Our Services Include</h2>
         <ul style={styles.list}>
-          <li><span style={{color:"#561c24", paddingRight:"5px"}} >✔</span> Data protection and privacy compliance</li>
-          <li><span style={{color:"#561c24", paddingRight:"5px"}} >✔</span> IT contracts and software licensing</li>
-          <li><span style={{color:"#561c24", paddingRight:"5px"}} >✔</span> Media & entertainment law advisory</li>
-          <li><span style={{color:"#561c24", paddingRight:"5px"}} >✔</span> Online defamation & cybercrime resolution</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} ><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span> Data protection and privacy compliance</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} ><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span> IT contracts and software licensing</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} ><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span> Media & entertainment law advisory</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} ><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span> Online defamation & cybercrime resolution</li>
         </ul>
       </div>
     </div>

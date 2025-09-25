@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../../assests/new/blog1.webp";
+import tick from "../../assests/new/tick .png";
 // import { Link } from "react-router-dom";
 
 function BankingAndFinance() {
@@ -98,12 +99,7 @@ function BankingAndFinance() {
             transition: color 0.3s ease;
           }
 
-          .list li::before {
-            content: "✔";
-            position: absolute;
-            left: 0;
-            color: #561c24;
-          }
+       
 
           .list li:hover {
             color: #561c24;
@@ -200,11 +196,11 @@ function BankingAndFinance() {
                             mitigating risks, and ensuring regulatory compliance.
                         </p>
                         <ul className="list">
-                            <li>Drafting and vetting of loan agreements, term sheets, and security documents</li>
-                            <li>Due diligence, financial structuring, and compliance advisory</li>
-                            <li>Representation before DRT, DRAT, NCLT, and High Courts</li>
-                            <li>Expertise in RBI, SEBI, and FEMA regulations</li>
-                            <li>Strategic legal support for banking fraud and asset recovery cases</li>
+                            <li><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Drafting and vetting of loan agreements, term sheets, and security documents</li>
+                            <li><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Due diligence, financial structuring, and compliance advisory</li>
+                            <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Representation before DRT, DRAT, NCLT, and High Courts</li>
+                            <li><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Expertise in RBI, SEBI, and FEMA regulations</li>
+                            <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Strategic legal support for banking fraud and asset recovery cases</li>
                         </ul>
                     </div>
 
@@ -213,12 +209,12 @@ function BankingAndFinance() {
                     <div className="section">
                         <h2 className="subheading">Our Core Services in Banking & Financial Law</h2>
                         <ul className="list">
-                            <li>Project and Infrastructure Finance</li>
-                            <li>Debt Recovery & Restructuring (SARFAESI, IBC, etc.)</li>
-                            <li>FinTech Legal Advisory & Compliance</li>
-                            <li>NBFC Licensing and Operational Support</li>
-                            <li>International Banking Transactions and Cross-Border Financing</li>
-                            <li>Regulatory Compliance for Banks, NBFCs, and Financial Institutions</li>
+                            <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Project and Infrastructure Finance</li>
+                            <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Debt Recovery & Restructuring (SARFAESI, IBC, etc.)</li>
+                            <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />FinTech Legal Advisory & Compliance</li>
+                            <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />NBFC Licensing and Operational Support</li>
+                            <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />International Banking Transactions and Cross-Border Financing</li>
+                            <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Regulatory Compliance for Banks, NBFCs, and Financial Institutions</li>
                         </ul>
                     </div>
 
