@@ -48,12 +48,9 @@ const AboutMe = () => {
       {/* Paragraphs */}
       <div style={{ maxWidth: "750px", padding: "0 15px" }}>
         <p>
- At <strong>SUKH JURIST</strong>, led by Advocate <strong className="text-capitalized">SUMAN KHATRI</strong>, we believe that justice is not just about laws; it is about people. With a strong vision to deliver reliable, results-driven, and client-focused legal solutions, our firm has quickly established itself as a trusted name in the legal community. </p>
+Here, you get professionally qualified advocates with a strong foundation in civil and criminal law. Our practice is rooted in integrity, careful strategy, and practical solutions for every client.</p>
 <p>
- Though we are a modern and progressive firm, we carry the weight of deep expertise and sharp legal acumen across a wide range of practice areas. <br/>
- Our dedication, professionalism, and commitment ensure that every client who walks through our doors feels empowered and supported. <br/>
- Here, you get professionally qualified advocates with a strong foundation in civil as well as criminal law. Our practice is rooted in integrity, careful strategy, and practical solutions for every client. <br />
- Our firm blends traditional legal wisdom with a forward-looking, innovative approach that centers on personal attention, honest advice, and clear communication, ensuring that every client’s concerns are addressed with care and dedication.
+ We have managed a wide range of legal matters, including litigation, client counseling, legal drafting, and alternative dispute resolution (ADR). Our approach centers on personal attention, honest advice, and clear communication, ensuring that every client’s concerns are addressed with care and dedication.
 </p>
 
       </div>

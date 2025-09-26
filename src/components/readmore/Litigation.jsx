@@ -83,13 +83,13 @@ function Litigation() {
         <img src={img} loading="lazy" alt="Advocate Sukhjurist" style={styles.heroImage} />
         <h1 style={styles.heading} >Expert Litigation Services in Delhi</h1>
         <p style={styles.paragraph}>
-         Providing diligent representation in a wide range of civil and criminal disputes. Each case is handled with thorough preparation, clear communication, and a focus on the client’s interests both inside and outside the courtroom.
+        Providing diligent representation in a wide range of civil and criminal disputes. Each case is handled with thorough preparation, clear communication, and a focus on the client’s interests both inside and outside the courtroom.
         </p>
         <h2 style={styles.subHeading}>Why Choose Us?</h2>
         <ul style={styles.list} >
-          <li> <span style={{color:"#561c24", paddingRight:"5px"}} ><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span>Decades of courtroom experience</li>
-          <li><span style={{color:"#561c24", paddingRight:"5px"}} ><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span>Civil, criminal, and commercial litigation</li>
-          <li><span style={{color:"#561c24", paddingRight:"5px"}} ><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span>Dedicated legal team for every case</li>
+          <li> <span style={{color:"#561c24", paddingRight:"5px"}} ><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span>Decades of courtroom experience.</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} ><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span>Civil, criminal, and commercial litigation.</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} ><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span>Dedicated legal team for every case.</li>
         </ul>
       </div>
 

@@ -187,9 +187,7 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
           <div className="section">
             <h1 className="heading">Corporate Advisory & Regulatory Compliances</h1>
             <p className="paragraph">
-              In today’s fast-changing business environment, companies need legal advisors who can navigate complex corporate laws,
-              governance norms, and compliance mandates. Our Corporate Advisory team helps clients structure businesses,
-              manage legal risk, and meet statutory obligations under Indian and international regulations.
+              In today’s fast-changing business environment, companies need legal advisors who can navigate complex corporate laws, governance norms, and compliance mandates. Our Corporate Advisory team helps clients structure businesses, manage legal risk, and meet statutory obligations under Indian and international regulations.
             </p>
           </div>
 
@@ -198,16 +196,14 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
           <div className="section">
             <h2 className="subheading">How We Help Your Business Stay Compliant</h2>
             <p className="paragraph">
-              We provide guidance on company formation, board advisory, corporate governance, contract management,
-              and regulatory filings. Whether you're a startup, an SME, or a multinational company, we help you maintain
-              smooth business operations with full legal clarity.
+              We provide guidance on company formation, board advisory, corporate governance, contract management, and regulatory filings. Whether you're a startup, an SME, or a multinational company, we help you maintain smooth business operations with full legal clarity.
             </p>
             <ul className="list">
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Business incorporation, mergers & acquisitions</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Drafting shareholder agreements and board resolutions</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Annual compliance under the Companies Act</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />FEMA, FDI, and RBI-related advisory</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Corporate restructuring and closure assistance</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Business incorporation, mergers & acquisitionss</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Drafting shareholder agreements and board resolutions.</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Annual compliance under the Companies Act.</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />FEMA, FDI, and RBI-related advisory.</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Corporate restructuring and closure assistance.</li>
             </ul>
           </div>
 
@@ -216,11 +212,11 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
           <div className="section">
             <h2 className="subheading">Our Core Corporate Services</h2>
             <ul className="list">
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Contract Drafting & Negotiation</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />SEBI & Stock Exchange Regulations</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Foreign Direct Investment (FDI) Compliance</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Director & Shareholder Legal Advisory</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Legal Entity Restructuring & Exit Strategies</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Contract Drafting & Negotiation.</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />SEBI & Stock Exchange Regulations.</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Foreign Direct Investment (FDI) Compliance.</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Director & Shareholder Legal Advisory.</li>
+              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Legal Entity Restructuring & Exit Strategies.</li>
             </ul>
           </div>
 
@@ -234,17 +230,7 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
           </div>
         </div>
 
-        {/* <div className="sidebar">
-          <h3>More Practice Areas</h3>
-          <ul>
-            <li><Link to="/readmore/litigation" onClick={() => window.scrollTo(0, 0)}>Litigation</Link></li>
-<li><Link to="/readmore/corporate-advisory" onClick={() => window.scrollTo(0, 0)}>Corporate Advisory</Link></li>
-<li><Link to="/readmore/dispute-resolution" onClick={() => window.scrollTo(0, 0)}>Dispute Resolution</Link></li>
-<li><Link to="/readmore/competition" onClick={() => window.scrollTo(0, 0)}>Competition Law</Link></li>
-<li><Link to="/readmore/technology-media" onClick={() => window.scrollTo(0, 0)}>Technology & Media</Link></li>
-
-          </ul>
-        </div> */}
+       
       </div>
     </>
   );

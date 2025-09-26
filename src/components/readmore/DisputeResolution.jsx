@@ -15,16 +15,14 @@ function DisputeResolution() {
           Effective Dispute Resolution Services in Delhi
         </h1>
         <p style={styles.paragraph}>
-          Our Dispute Resolution team offers a practical, result-oriented approach
-          to resolving commercial, contractual, and regulatory disputes. We aim to
-          avoid lengthy litigation and provide smart, strategic alternatives.
+          Our Dispute Resolution team offers a practical, result-oriented approach to resolving commercial, contractual, and regulatory disputes. We aim to avoid lengthy litigation and provide smart, strategic alternatives.
         </p>
 
         <h2 style={styles.subHeading}>What We Offer</h2>
         <ul style={styles.list}>
-          <li><span style={{color:"#561c24", paddingRight:"5px"}} > <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span> Arbitration, mediation, and conciliation expertise</li>
-          <li><span style={{color:"#561c24", paddingRight:"5px"}} > <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span> Pre-litigation strategies for faster outcomes</li>
-          <li><span style={{color:"#561c24", paddingRight:"5px"}} > <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span> Sector-specific dispute handling (real estate, banking, etc.)</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} > <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span> Arbitration, mediation, and conciliation expertise.</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} > <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span> Pre-litigation strategies for faster outcomes.</li>
+          <li><span style={{color:"#561c24", paddingRight:"5px"}} > <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span> Sector-specific dispute handling (real estate, banking, etc.).</li>
         </ul>
       </div>
 

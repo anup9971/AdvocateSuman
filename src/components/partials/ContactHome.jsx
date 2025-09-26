@@ -103,7 +103,7 @@ const ContactHome = () => {
     </ul>
 
     <p style={{ display: "flex", alignItems: "center", gap: "15px" }}>
-      <img  loading="lazy" src={email} style={{height:"25px", width:"30px"}} alt="Contact us" /> 
+      <img  loading="lazy" src={email} style={{height:"33px", width:"30px"}} alt="Contact us" /> 
       <a style={{color:"#561C24"}} href="mailto:Info@sukhjurist.com">Info@sukhjurist.com</a>
     </p>
 
@@ -133,7 +133,7 @@ const ContactHome = () => {
   <Row className="justify-content-center d-none d-md-flex mb-5">
     {[ 
       { name: 'Phone', icon: phone, link: 'tel:+918800417772', label: '+91 8800417772' },
-      { name: 'Email', icon: email, link: 'mailto:Info@sukhjurist.com', label: 'Email' },
+      { name: 'Email', icon: email, link: 'mailto:Info@sukhjurist.com', label: 'Email',height:"53px" },
       { name: 'LinkedIn', icon: linkedin, link: 'https://www.linkedin.com/in/sumankhatri12/', label: 'LinkedIn' },
     ].map((item, idx) => (
       <Col key={idx} xs={6} md={3} className="contact-item text-center mb-3">
@@ -150,7 +150,7 @@ const ContactHome = () => {
             textDecorationColor: hoveredLink === item.name ? '#561C24' : 'transparent',
           }}
         >
-          <img  loading="lazy" src={item.icon} width={50} height={43} alt="Contact us" />
+          <img  loading="lazy" src={item.icon} width={50} height={ item.height? item.height :"43"} alt="Contact us" />
           <p style={styles.text}>{item.label}</p>
         </a>
       </Col>
@@ -195,7 +195,7 @@ const ContactHome = () => {
             textDecorationColor: hoveredLink === 'Instagram' ? '#561C24' : 'transparent',
           }}
         >
-          <img loading="lazy" src={email} width={40} height={40} alt="Contact us" />
+          <img loading="lazy" src={email} width={48} height={63} alt="Contact us" />
           <p style={styles.text}>Email</p>
         </a>
       </Col>
