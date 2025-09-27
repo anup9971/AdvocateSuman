@@ -20,9 +20,9 @@ function DisputeResolution() {
 
         <h2 style={styles.subHeading}>What We Offer</h2>
         <ul style={styles.list}>
-          <li><span style={{color:"#9c3722", paddingRight:"5px"}} >✔ </span> Arbitration, mediation, and conciliation expertise.</li>
-          <li><span style={{color:"#9c3722", paddingRight:"5px"}} >✔ </span> Pre-litigation strategies for faster outcomes.</li>
-          <li><span style={{color:"#9c3722", paddingRight:"5px"}} >✔ </span> Sector-specific dispute handling (real estate, banking, etc.).</li>
+          <li><span style={{color:"#c44618", paddingRight:"5px"}} >✔ </span> Arbitration, mediation, and conciliation expertise.</li>
+          <li><span style={{color:"#c44618", paddingRight:"5px"}} >✔ </span> Pre-litigation strategies for faster outcomes.</li>
+          <li><span style={{color:"#c44618", paddingRight:"5px"}} >✔ </span> Sector-specific dispute handling (real estate, banking, etc.).</li>
         </ul>
       </div>
 

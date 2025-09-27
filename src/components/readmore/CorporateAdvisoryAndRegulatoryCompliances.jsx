@@ -12,7 +12,7 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
             content: "✔";
             position: absolute;
             left: 0;
-            color: #9c3722;
+            color: #c44618;
           }
           .corporate-container {
             display: flex;
@@ -205,7 +205,7 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
               We provide guidance on company formation, board advisory, corporate governance, contract management, and regulatory filings. Whether you're a startup, an SME, or a multinational company, we help you maintain smooth business operations with full legal clarity.
             </p>
             <ul className="list">
-              <li> Business incorporation, mergers & acquisitionss</li>
+              <li> Business incorporation, mergers & acquisitions</li>
               <li> Drafting shareholder agreements and board resolutions.</li>
               <li> Annual compliance under the Companies Act.</li>
               <li> FEMA, FDI, and RBI-related advisory.</li>

@@ -48,15 +48,15 @@ function TechnologyMediaAndCommunication() {
           Technology, Media & Communication Law Experts in Delhi
         </h1>
         <p style={styles.paragraph}>
-          We provide specialized legal services in the fast-evolving domains of technology, media, and communication. Our lawyers offer practical legal guidance to help businesses and creatives navigate the complex digital world.
+          We provide specialised legal services in the fast-evolving domains of technology, media, and communication. Our lawyers offer practical legal guidance to help businesses and creatives navigate the complex digital world.
         </p>
 
         <h2 className="subheading" style={styles.subHeading}>Our Services Include</h2>
         <ul style={styles.list}>
-          <li><span style={{color:"#9c3722", paddingRight:"5px"}} >✔</span> Data protection and privacy compliance.</li>
-          <li><span style={{color:"#9c3722", paddingRight:"5px"}} >✔</span> IT contracts and software licensing.</li>
-          <li><span style={{color:"#9c3722", paddingRight:"5px"}} >✔</span> Media & entertainment law advisory.</li>
-          <li><span style={{color:"#9c3722", paddingRight:"5px"}} >✔</span> Online defamation & cybercrime resolution.</li>
+          <li><span style={{color:"#c44618", paddingRight:"5px"}} >✔</span> Data protection and privacy compliance.</li>
+          <li><span style={{color:"#c44618", paddingRight:"5px"}} >✔</span> IT contracts and software licensing.</li>
+          <li><span style={{color:"#c44618", paddingRight:"5px"}} >✔</span> Media & entertainment law advisory.</li>
+          <li><span style={{color:"#c44618", paddingRight:"5px"}} >✔</span> Online defamation & cybercrime resolution.</li>
         </ul>
       </div>
     </div>

@@ -18,7 +18,7 @@ const AboutHome = () => {
             <div className="image-wrapper">
               <img loading="lazy"
               
-                src="/images/lady.webp"
+                src={aboutImage}
                 alt="Advocate Sukhjurist"
                 className="about-image"
               />

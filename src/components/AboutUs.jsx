@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import aboutImage from '../assests/new/female_advocate_image.webp';
+import aboutImage from '../assests/new/lady.webp';
 import AboutMe from './partials/AboutMe';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

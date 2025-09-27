@@ -87,9 +87,9 @@ function Litigation() {
         </p>
         <h2 style={styles.subHeading}>Why Choose Us?</h2>
         <ul style={styles.list} >
-          <li> <span style={{color:"#9c3722", paddingRight:"5px"}} >✔</span>Decades of courtroom experience.</li>
-          <li><span style={{color:"#9c3722", paddingRight:"5px"}} >✔</span>Civil, criminal, and commercial litigation.</li>
-          <li><span style={{color:"#9c3722", paddingRight:"5px"}} >✔</span>Dedicated legal team for every case.</li>
+          <li> <span style={{color:"#c44618", paddingRight:"5px"}} >✔</span>Decades of courtroom experience.</li>
+          <li><span style={{color:"#c44618", paddingRight:"5px"}} >✔</span>Civil, criminal, and commercial litigation.</li>
+          <li><span style={{color:"#c44618", paddingRight:"5px"}} >✔</span>Dedicated legal team for every case.</li>
         </ul>
       </div>
 

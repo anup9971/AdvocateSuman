@@ -21,7 +21,7 @@ function BankingAndFinance() {
             content: "✔";
             position: absolute;
             left: 0;
-            color: #9c3722;
+            color: #c44618;
           }
 
           @keyframes fadeIn {
@@ -189,7 +189,7 @@ function BankingAndFinance() {
                     <div className="section">
                         <h1 className="heading">Trusted Banking and Finance Legal Services in Delhi</h1>
                         <p className="paragraph">
-                          The financial world is constantly evolving—with stricter regulations, rapid digitization, and increasing risks. Our legal team helps you stay compliant and protected while advancing your financial interests.
+                          The financial world is constantly evolving—with stricter regulations, rapid digitisation, and increasing risks. Our legal team helps you stay compliant and protected while advancing your financial interests.
                         </p>
                     </div>
 
@@ -198,7 +198,7 @@ function BankingAndFinance() {
                     <div className="section">
                         <h2 className="subheading">Why Work with Our Banking & Finance Legal Experts?</h2>
                         <p className="paragraph">
-                            With over a decade of experience, we specialize in structuring secure financial transactions, mitigating risks, and ensuring regulatory compliance.
+                            With over a decade of experience, we specialise in structuring secure financial transactions, mitigating risks, and ensuring regulatory compliance.
                         </p>
                         <ul className="list">
                             <li>Drafting and vetting of loan agreements, term sheets, and security documents.</li>

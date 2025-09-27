@@ -12,7 +12,7 @@ function Competition() {
             content: "✔";
             position: absolute;
             left: 0;
-            color: #9c3722;
+            color: #c44618;
           }
           .banking-container {
             display: flex;
