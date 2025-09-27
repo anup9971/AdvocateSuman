@@ -8,6 +8,12 @@ function Competition() {
     <>
       <style>
         {`
+         .list li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #9c3722;
+          }
           .banking-container {
             display: flex;
             flex-wrap: wrap;
@@ -200,11 +206,11 @@ function Competition() {
           <div className="section">
             <h2 className="subheading">Our Services Include:</h2>
             <ul className="list">
-              <li><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Competition compliance audits.</li>
-              <li><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Handling CCI investigations & litigation.</li>
-              <li><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Advising on anti-competitive agreements & dominance.</li>
-              <li><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Merger filings & approvals.</li>
-              <li><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Risk assessment of strategic collaborations.</li>
+              <li>Competition compliance audits.</li>
+              <li>Handling CCI investigations & litigation.</li>
+              <li>Advising on anti-competitive agreements & dominance.</li>
+              <li>Merger filings & approvals.</li>
+              <li>Risk assessment of strategic collaborations.</li>
             </ul>
           </div>
 

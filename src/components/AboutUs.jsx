@@ -140,29 +140,33 @@ const About = () => {
              <div data-aos="fade-up">
               <h2 style={headingStyle}>Our Philosophy</h2>
               <p style={{ ...paragraphStyle, ...hoverEffect }}>
-              Justice is at the core of everything we do. We believe every client deserves attentive representation and the best possible outcome, no matter how complex their matter may be. Our commitment is to treat each case with care, diligence, and integrity.
+             Justice is at the core of everything we do. We believe every client deserves attentive representation and the best possible outcome, no matter how complex their matter may be. Our commitment is to treat each case with care, diligence, and integrity.
               </p>
             </div>
 
             <div data-aos="fade-up">
               <h2 style={headingStyle}>Our Team</h2>
               <p style={{ ...paragraphStyle, ...hoverEffect }}>
-             Our firm brings together dedicated legal professionals with expertise spanning litigation, dispute resolution, regulatory and corporate advisory, and compliance matters. We are more than just lawyers—each team member serves as a trusted advisor, committed to.
+               At SUKH JURIST, success is measured not just by victories in the courtroom but by the satisfaction, trust, and long-term relationship we build with our clients.
               </p>
+              <p style={{ ...paragraphStyle, ...hoverEffect }}>
+               Our firm brings together dedicated legal professionals with expertise spanning litigation, dispute resolution, regulatory and corporate advisory, and compliance matters. We are more than just lawyers; each team member serves as a trusted advisor, committed to the inherent principles of the firm.
+              </p>
+              <p style={{ ...paragraphStyle, ...hoverEffect }}>Our team is not only committed to excellence in the courtroom but also to building long-lasting trust through transparency, clarity, and consistent results.</p>
             </div>
 
-            {/* <div data-aos="fade-up">
+            <div data-aos="fade-up">
               <h2 style={headingStyle}>Our Vision</h2>
                 <p style={{ ...paragraphStyle, ...hoverEffect }}>
             To be recognized as a law firm where justice meets expertise, and where every client feels assured that their case is in the hands of professionals who truly care.
               </p>
-            </div> */}
+            </div>
 
-             {/* <div data-aos="fade-up">
+             <div data-aos="fade-up">
               <h2 style={headingStyle}>Our Promise</h2>
                 <p style={{ ...paragraphStyle, ...hoverEffect }}>
            With adv. <strong>SUMAN KHATRI</strong> and a dedicated team of legal minds, we stand ready to protect your rights, defend your interests, and guide you through even the most complex legal challenges. </p>
-            </div> */}
+            </div>
 
             <div data-aos="fade-up">
               <h2 style={headingStyle}>Why Choose Us?</h2>

@@ -78,7 +78,7 @@ function Litigation() {
 
   return (
     <div style={styles.pageContainer}>
-      {/* ✔ */}
+      
       <div style={styles.mainContent}>
         <img src={img} loading="lazy" alt="Advocate Sukhjurist" style={styles.heroImage} />
         <h1 style={styles.heading} >Expert Litigation Services in Delhi</h1>
@@ -87,9 +87,9 @@ function Litigation() {
         </p>
         <h2 style={styles.subHeading}>Why Choose Us?</h2>
         <ul style={styles.list} >
-          <li> <span style={{color:"#561c24", paddingRight:"5px"}} ><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span>Decades of courtroom experience.</li>
-          <li><span style={{color:"#561c24", paddingRight:"5px"}} ><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span>Civil, criminal, and commercial litigation.</li>
-          <li><span style={{color:"#561c24", paddingRight:"5px"}} ><img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px"}} /></span>Dedicated legal team for every case.</li>
+          <li> <span style={{color:"#9c3722", paddingRight:"5px"}} >✔</span>Decades of courtroom experience.</li>
+          <li><span style={{color:"#9c3722", paddingRight:"5px"}} >✔</span>Civil, criminal, and commercial litigation.</li>
+          <li><span style={{color:"#9c3722", paddingRight:"5px"}} >✔</span>Dedicated legal team for every case.</li>
         </ul>
       </div>
 

@@ -10,10 +10,10 @@ const HeroSection = () => {
            “Guiding you through every legal challenge with care and clarity”
           </h1>
           <p>
-           Welcome to the official website of Advocate  <strong style={{color:"#561c24"}}>SUMAN KHATRI </strong>- your dependable lawyer in New Delhi for civil, criminal, and ADR matters. Every client receives honest advice, clear communication, and tailored legal support.
+           Welcome to   <strong style={{color:"#561c24"}}><u>SUKH JURIST</u> </strong>a comprehensive legal expertise from corporate and commercial matters to family law, property disputes, criminal defense, civil litigation, arbitration, and more. We cover the entire spectrum of legal fields.
             <br /><br />
-          Whether you need legal drafting, courtroom representation, or confidential guidance, I am committed to providing ethical, solution-focused legal services with respect for your needs. <br />
-           Every case is unique, and we take time to understand your specific needs. We combine legal strategy with practical solutions, ensuring your interests are protected at every stage.
+          While we proudly serve clients all across India, our strong presence in the Delhi-NCR region gives us an edge in navigating local laws, courts, and regulations with precision. <br />
+          Every case is unique, and we take time to understand your specific needs. We combine legal strategy with practical solutions, ensuring your interests are protected at every stage.
           </p>
           <div className="hero-buttons">
         <a href="/contact" className="btn primary">Consult Now !</a>

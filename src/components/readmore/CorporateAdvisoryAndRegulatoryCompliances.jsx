@@ -8,6 +8,12 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
     <>
       <style>
         {`
+          .list li::before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #9c3722;
+          }
           .corporate-container {
             display: flex;
             flex-wrap: wrap;
@@ -199,11 +205,11 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
               We provide guidance on company formation, board advisory, corporate governance, contract management, and regulatory filings. Whether you're a startup, an SME, or a multinational company, we help you maintain smooth business operations with full legal clarity.
             </p>
             <ul className="list">
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Business incorporation, mergers & acquisitionss</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Drafting shareholder agreements and board resolutions.</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Annual compliance under the Companies Act.</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />FEMA, FDI, and RBI-related advisory.</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Corporate restructuring and closure assistance.</li>
+              <li> Business incorporation, mergers & acquisitionss</li>
+              <li> Drafting shareholder agreements and board resolutions.</li>
+              <li> Annual compliance under the Companies Act.</li>
+              <li> FEMA, FDI, and RBI-related advisory.</li>
+              <li> Corporate restructuring and closure assistance.</li>
             </ul>
           </div>
 
@@ -212,11 +218,11 @@ function CorporateAdvisoryAndRegulatoryCompliances() {
           <div className="section">
             <h2 className="subheading">Our Core Corporate Services</h2>
             <ul className="list">
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Contract Drafting & Negotiation.</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />SEBI & Stock Exchange Regulations.</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Foreign Direct Investment (FDI) Compliance.</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Director & Shareholder Legal Advisory.</li>
-              <li> <img src={tick} alt="Advocate Sukhjurist" style={{width:"23px" , height:"20px", paddingRight:"5px"}} />Legal Entity Restructuring & Exit Strategies.</li>
+              <li> Contract Drafting & Negotiation.</li>
+              <li> SEBI & Stock Exchange Regulations.</li>
+              <li> Foreign Direct Investment (FDI) Compliance.</li>
+              <li> Director & Shareholder Legal Advisory.</li>
+              <li> Legal Entity Restructuring & Exit Strategies.</li>
             </ul>
           </div>
 
