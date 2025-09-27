@@ -147,12 +147,14 @@ const About = () => {
             <div data-aos="fade-up">
               <h2 style={headingStyle}>Our Team</h2>
               <p style={{ ...paragraphStyle, ...hoverEffect }}>
-               At SUKH JURIST, success is measured not just by victories in the courtroom but by the satisfaction, trust, and long-term relationship we build with our clients.
+               At <strong>SUKH JURIST</strong> , success is measured not just by victories in the courtroom but by the satisfaction, trust, and long-term relationship we build with our clients. <br />
+               Our firm brings together dedicated legal professionals with expertise spanning litigation, dispute resolution, regulatory and corporate advisory, and compliance matters. We are more than just lawyers; each team member serves as a trusted advisor, committed to the inherent principles of the firm. <br />
+                Our team is not only committed to excellence in the courtroom but also to building long-lasting trust through transparency, clarity, and consistent results.
+              </p>
+              {/* <p style={{ ...paragraphStyle, ...hoverEffect }}>
               </p>
               <p style={{ ...paragraphStyle, ...hoverEffect }}>
-               Our firm brings together dedicated legal professionals with expertise spanning litigation, dispute resolution, regulatory and corporate advisory, and compliance matters. We are more than just lawyers; each team member serves as a trusted advisor, committed to the inherent principles of the firm.
-              </p>
-              <p style={{ ...paragraphStyle, ...hoverEffect }}>Our team is not only committed to excellence in the courtroom but also to building long-lasting trust through transparency, clarity, and consistent results.</p>
+                </p> */}
             </div>
 
             <div data-aos="fade-up">
