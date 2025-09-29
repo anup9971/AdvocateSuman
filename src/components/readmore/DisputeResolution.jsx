@@ -37,7 +37,7 @@ const styles = {
   justifyContent: "center",      // Center horizontally
   alignItems: "center",          // Center vertically (optional)
   padding: "20px",
-  backgroundColor: "#e8d8c4",
+  backgroundColor: "white",
   fontFamily: "Arial, sans-serif",
   color: "#222",
   flexWrap: "wrap",
@@ -46,7 +46,7 @@ const styles = {
  mainContent: {
   width: "100%",
   maxWidth: "700px",             // Card max width
-  backgroundColor: "#fff",
+  backgroundColor: "#e8d8c4",
   padding: "20px",
   borderRadius: "10px",
   boxShadow: "0 0 10px rgba(0,0,0,0.1)",
@@ -84,7 +84,7 @@ const styles = {
   },
   list: {
     marginTop: "10px",
-    marginLeft: "20px",
+    // marginLeft: "20px",
     marginBottom: "20px",
     lineHeight: "1.6",
     listStyleType:"none"

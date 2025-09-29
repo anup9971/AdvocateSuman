@@ -67,13 +67,13 @@ const styles = {
   pageContainer: {
     display: "flex",
     padding: "30px",
-    backgroundColor: "#e8d8c4",
+    backgroundColor: "white",
     fontFamily: "Arial, sans-serif",
     color: "#222",
   },
   mainContent: {
     flex: 3,
-    backgroundColor: "#fff",
+    backgroundColor: "#e8d8c4",
     padding: "30px",
     borderRadius: "10px",
     marginRight: "30px",
@@ -106,7 +106,7 @@ const styles = {
   },
   list: {
     marginTop: "10px",
-    marginLeft: "20px",
+    // marginLeft: "20px",
     marginBottom: "20px",
     listStyleType:"none"
   },

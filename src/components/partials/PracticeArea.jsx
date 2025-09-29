@@ -105,7 +105,7 @@ function PracticeArea() {
     {selectedTitle}
   </Modal.Title>
         </Modal.Header>
-        <Modal.Body style={{backgroundColor:"#e8d8c4"}} >{renderComponent(selectedTitle)}</Modal.Body>
+        <Modal.Body style={{backgroundColor:"white"}} >{renderComponent(selectedTitle)}</Modal.Body>
         <Modal.Footer>
           <Button style={{backgroundColor:"#561c24"}} onClick={handleClose}>
             Close

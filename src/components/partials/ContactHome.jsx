@@ -42,10 +42,10 @@ const ContactHome = () => {
               color: "#333",
             }}
           >
-            <p>✔ Consistent record of successful and practical legal outcomes</p>
-            <p>✔ Personalised guidance and thoughtful legal strategies for each client</p>
-            <p>✔ Clear and transparent communication through every step of your case</p>
-            <p>✔ Ethical practice and professionalism at the heart of our work</p>
+            <p> <span style={{color:"#c44618"}}>✔</span> Consistent record of successful and practical legal outcomes</p>
+            <p> <span style={{color:"#c44618"}}>✔</span> Personalised guidance and thoughtful legal strategies for each client</p>
+            <p> <span style={{color:"#c44618"}}>✔</span> Clear and transparent communication through every step of your case</p>
+            <p> <span style={{color:"#c44618"}}>✔</span> Ethical practice and professionalism at the heart of our work</p>
           </div>
         </div>
 

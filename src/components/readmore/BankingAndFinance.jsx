@@ -12,7 +12,7 @@ function BankingAndFinance() {
             display: flex;
             flex-wrap: wrap;
             padding: 40px;
-            background-color: #e8d8c4;
+            background-color: white;
             font-family: Arial, sans-serif;
             color: #222;
             animation: fadeIn 0.8s ease-in-out;
@@ -31,7 +31,7 @@ function BankingAndFinance() {
 
           .main-content {
             flex: 3;
-            background: #fff;
+            background: #e8d8c4;
             padding: 30px;
             border-radius: 12px;
             margin-right: 30px;
@@ -93,7 +93,7 @@ function BankingAndFinance() {
           }
 
           .list {
-            margin-left: 20px;
+            // margin-left: 20px;
             margin-bottom: 20px;
             list-style-type: none;
           }
