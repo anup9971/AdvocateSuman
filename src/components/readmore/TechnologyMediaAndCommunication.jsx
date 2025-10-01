@@ -76,7 +76,8 @@ const styles = {
     backgroundColor: "#e8d8c4",
     padding: "30px",
     borderRadius: "10px",
-    marginRight: "30px",
+    // marginRight: "30px",
+    marginRight: "0px",
     boxShadow: "0 0 10px rgba(0,0,0,0.1)",
   },
   sidebar: {

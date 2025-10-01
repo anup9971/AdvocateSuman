@@ -10,7 +10,7 @@ const HeroSection = () => {
            “Guiding you through every legal challenge with care and clarity”
           </h1>
           <p>
-           Welcome to   <strong style={{color:"#561c24"}}><u>SUKH JURIST,</u> </strong>a comprehensive legal expertise from corporate and commercial matters to family law, property disputes, criminal defence, civil litigation, arbitration, and more. We cover the entire spectrum of legal fields.
+           Welcome to   <strong style={{color:"#561c24"}}>SUKH JURIST </strong>, a comprehensive legal expertise from corporate and commercial matters to family law, property disputes, criminal defence, civil litigation, arbitration, and more. We cover the entire spectrum of legal fields.
             <br /><br />
           While we proudly serve clients all across India, our strong presence in the Delhi-NCR region gives us an edge in navigating local laws, courts, and regulations with precision. <br />
           Every case is unique, and we take time to understand your specific needs. We combine legal strategy with practical solutions, ensuring your interests are protected at every stage.

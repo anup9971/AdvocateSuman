@@ -34,7 +34,8 @@ function Competition() {
             background: #e8d8c4;
             padding: 30px;
             border-radius: 12px;
-            margin-right: 30px;
+            margin-right: 0px;
+            // margin-right: 30px;
             box-shadow: 0 0 12px rgba(0,0,0,0.08);
             animation: fadeInUp 0.9s ease-in-out;
           }

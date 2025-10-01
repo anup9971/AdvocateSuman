@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import img from "../../assests/new/blog1.webp";
-import tick from "../../assests/new/tick .png";
+
 // import { Link } from "react-router-dom";
 
 function Litigation() {
@@ -14,6 +14,7 @@ function Litigation() {
 
   const styles = {
     pageContainer: {
+      
       display: "flex",
       flexDirection: isMobile ? "column" : "row",
       padding: isMobile ? "15px" : "30px",
@@ -22,12 +23,13 @@ function Litigation() {
       color: "#222",
     },
     mainContent: {
+      
       flex: 3,
       backgroundColor: "#e8d8c4",
       padding: isMobile ? "20px" : "30px",
       borderRadius: "10px",
-      marginRight: isMobile ? "0" : "30px",
-      marginBottom: isMobile ? "20px" : "0",
+      marginRight: isMobile ? "0" : "0px",
+      marginBottom: isMobile ? "0px" : "0",
       boxShadow: "0 0 10px rgba(0,0,0,0.1)",
     },
     sidebar: {

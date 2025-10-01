@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../../assests/new/blog1.webp"; 
-import tick from "../../assests/new/tick .png"; 
+
 
 function DisputeResolution() {
   return (
