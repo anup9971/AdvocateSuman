@@ -85,19 +85,19 @@ const ContactHome = () => {
       <li style={{ display: "flex", alignItems: "flex-start", marginBottom: "10px" }}>
         <img loading="lazy" src={loc} style={{ height: "25px", width: "30px", marginRight: "10px" }} alt="Contact us" />
         <span>
-          Kh.no.1031/1, Mahipalpur, <br /> 
+          1031/1, Vhotel The Grand Shoba,<br />  Ground Floor, Mahipalpur,  <br />
           Vasant Kunj Bypass Road, <br /> 
-          Mahipalpur Extension, New Delhi, <br /> 
-          Delhi 110037
+         Mahipalpur Extension, Delhi 110037 <br /> 
+        
         </span>
       </li>
 
       <li style={{ display: "flex", alignItems: "flex-start", marginBottom: "10px" }}>
         <img loading="lazy" src={loc} style={{ height: "25px", width: "30px", marginRight: "10px" }} alt="Contact us" />
         <span>
-          Splendor Trade Tower, <br /> 
-          C36F+786, Golf Course Extension Rd, <br /> 
-          Sec 65, Gurugram, Haryana 122101
+          Splendor Trade Tower,C36F+786, <br /> 
+           Golf Course Extension Rd, Sec 65, <br /> 
+           Gurugram, Haryana 122101
         </span>
       </li>
     </ul>

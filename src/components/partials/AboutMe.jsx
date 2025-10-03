@@ -48,7 +48,7 @@ const AboutMe = () => {
       {/* Paragraphs */}
       <div style={{ maxWidth: "750px", padding: "0 15px" }}>
         <p>
-At <strong style={{color:"#561c24"}}>SUKH JURIST  </strong>; led by Advocate <strong style={{color:"#561c24"}}>SUMAN KHATRI </strong>, we believe that justice is not just about laws, it is about people. With a strong vision to deliver reliable, results-driven, and client-focused legal solutions, our firm has quickly established itself as a trusted name in the legal community.</p>
+At <strong style={{color:"#561c24"}}>SUKH JURIST</strong>; led by Advocate <strong style={{color:"#561c24"}}>SUMAN KHATRI</strong>, we believe that justice is not just about laws, it is about people. With a strong vision to deliver reliable, results-driven, and client-focused legal solutions, our firm has quickly established itself as a trusted name in the legal community.</p>
 <p>
 Though we are a modern and progressive firm, we carry the weight of deep expertise and sharp legal acumen across a wide range of practice areas.
 </p>
