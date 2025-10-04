@@ -85,9 +85,9 @@ const ContactHome = () => {
       <li style={{ display: "flex", alignItems: "flex-start", marginBottom: "10px" }}>
         <img loading="lazy" src={loc} style={{ height: "25px", width: "30px", marginRight: "10px" }} alt="Contact us" />
         <span>
-          1031/1, Vhotel The Grand Shoba,<br />  Ground Floor, Mahipalpur,  <br />
-          Vasant Kunj Bypass Road, <br /> 
-         Mahipalpur Extension, Delhi 110037 <br /> 
+          1031/1, Vhotel The Grand Shoba, <br />  Ground Floor, Mahipalpur, Vasant Kunj,  <br />
+           Bypass Road, Extension, Mahipalpur, <br /> 
+          Delhi, 110037 <br /> 
         
         </span>
       </li>
